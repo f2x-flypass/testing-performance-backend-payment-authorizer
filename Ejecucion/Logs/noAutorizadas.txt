@@ -1,0 +1,118 @@
+ Response: {"code":"002","message":"NO AUTORIZADO"}
+ Response: {"code":"002","message":"NO AUTORIZADO"}
+ Response: {"code":"002","message":"NO AUTORIZADO"}
+ Response: {"code":"002","message":"NO AUTORIZADO"}
+ Response: {"code":"002","message":"NO AUTORIZADO"}
+ Response: {"code":"002","message":"NO AUTORIZADO"}
+ Response: {"code":"002","message":"NO AUTORIZADO"}
+ Response: {"code":"002","message":"NO AUTORIZADO"}
+ Response: {"code":"002","message":"NO AUTORIZADO"}
+ Response: {"code":"002","message":"NO AUTORIZADO"}
+ Response: {"code":"002","message":"NO AUTORIZADO"}
+ Response: {"code":"002","message":"NO AUTORIZADO"}
+ Response: {"code":"002","message":"NO AUTORIZADO"}
+----baseline 
+Response: {"code":"002","message":"NO AUTORIZADO"}
+----carga Final
+ Response: {"code":"002","message":"NO AUTORIZADO"}
+ Response: {"code":"002","message":"NO AUTORIZADO"}
+ Response: {"code":"002","message":"NO AUTORIZADO"}
+ Response: {"code":"002","message":"NO AUTORIZADO"}
+ Response: {"code":"002","message":"NO AUTORIZADO"}
+ Response: {"code":"002","message":"NO AUTORIZADO"}
+ Response: {"code":"002","message":"NO AUTORIZADO"}
+ Response: {"code":"002","message":"NO AUTORIZADO"}
+ Response: {"code":"002","message":"NO AUTORIZADO"}
+ Response: {"code":"002","message":"NO AUTORIZADO"}
+ Response: {"code":"002","message":"NO AUTORIZADO"}
+ Response: {"code":"002","message":"NO AUTORIZADO"}
+ Response: {"code":"002","message":"NO AUTORIZADO"}
+flyKey: CGC519, varPaymentAuthorizationId: dd0ebb29-a6ec-49de-9fe0-2132f961437f, Response: {"code":"002","message":"NO AUTORIZADO"}
+flyKey: CGC519, varPaymentAuthorizationId: dd0ebb29-a6ec-49de-9fe0-2132f961437f, Response: {"code":"002","message":"NO AUTORIZADO"}
+flyKey: CGC519, varPaymentAuthorizationId: dd0ebb29-a6ec-49de-9fe0-2132f961437f, Response: {"code":"002","message":"NO AUTORIZADO"}
+flyKey: CGC519, varPaymentAuthorizationId: dd0ebb29-a6ec-49de-9fe0-2132f961437f, Response: {"code":"002","message":"NO AUTORIZADO"}
+flyKey: CGC519, varPaymentAuthorizationId: dd0ebb29-a6ec-49de-9fe0-2132f961437f, Response: {"code":"002","message":"NO AUTORIZADO"}
+flyKey: CGC519, varPaymentAuthorizationId: dd0ebb29-a6ec-49de-9fe0-2132f961437f, Response: {"code":"002","message":"NO AUTORIZADO"}
+flyKey: CGC519, varPaymentAuthorizationId: dd0ebb29-a6ec-49de-9fe0-2132f961437f, Response: {"code":"002","message":"NO AUTORIZADO"}
+ varPaymentAuthorizationId: 66059cd0-a985-4607-8f18-9e073ed450d9, Response: {"code":"002","message":"NO AUTORIZADO"}
+ varPaymentAuthorizationId: 66059cd0-a985-4607-8f18-9e073ed450d9, Response: {"code":"002","message":"NO AUTORIZADO"}
+ varPaymentAuthorizationId: 66059cd0-a985-4607-8f18-9e073ed450d9, Response: {"code":"002","message":"NO AUTORIZADO"}
+ varPaymentAuthorizationId: 66059cd0-a985-4607-8f18-9e073ed450d9, Response: {"code":"002","message":"NO AUTORIZADO"}
+ varPaymentAuthorizationId: 66059cd0-a985-4607-8f18-9e073ed450d9, Response: {"code":"002","message":"NO AUTORIZADO"}
+ varPaymentAuthorizationId: 66059cd0-a985-4607-8f18-9e073ed450d9, Response: {"code":"002","message":"NO AUTORIZADO"}
+ varPaymentAuthorizationId: 66059cd0-a985-4607-8f18-9e073ed450d9, Response: {"code":"002","message":"NO AUTORIZADO"}
+--- prueba estres
+Response: {"code":"002","message":"NO AUTORIZADO"}
+Response: {"code":"002","message":"NO AUTORIZADO"}
+Response: {"code":"002","message":"NO AUTORIZADO"}
+Response: {"code":"002","message":"NO AUTORIZADO"}
+Response: {"code":"002","message":"NO AUTORIZADO"}
+Response: {"code":"002","message":"NO AUTORIZADO"}
+Response: {"code":"002","message":"NO AUTORIZADO"}
+Response: {"code":"002","message":"NO AUTORIZADO"}
+Response: {"code":"002","message":"NO AUTORIZADO"}
+Response: {"code":"002","message":"NO AUTORIZADO"}
+Response: {"code":"002","message":"NO AUTORIZADO"}
+---estres
+Response: {"code":"002","message":"NO AUTORIZADO"}
+Response: {"code":"002","message":"NO AUTORIZADO"}
+Response: {"code":"002","message":"NO AUTORIZADO"}
+Response: {"code":"002","message":"NO AUTORIZADO"}
+Response: {"code":"002","message":"NO AUTORIZADO"}
+Response: {"code":"002","message":"NO AUTORIZADO"}
+Response: {"code":"002","message":"NO AUTORIZADO"}
+Response: {"code":"002","message":"NO AUTORIZADO"}
+Response: {"code":"002","message":"NO AUTORIZADO"}
+Response: {"code":"002","message":"NO AUTORIZADO"}
+Response: {"code":"002","message":"NO AUTORIZADO"}
+Response: {"code":"002","message":"NO AUTORIZADO"}
+Response: {"code":"002","message":"NO AUTORIZADO"}
+Response: {"code":"002","message":"NO AUTORIZADO"}
+Response: {"code":"002","message":"NO AUTORIZADO"}
+Response: {"code":"002","message":"NO AUTORIZADO"}
+Response: {"code":"002","message":"NO AUTORIZADO"}
+Response: {"code":"002","message":"NO AUTORIZADO"}
+Response: {"code":"002","message":"NO AUTORIZADO"}
+Response: {"code":"002","message":"NO AUTORIZADO"}
+Response: {"code":"002","message":"NO AUTORIZADO"}
+Response: {"code":"002","message":"NO AUTORIZADO"}
+Response: {"code":"002","message":"NO AUTORIZADO"}
+Response: {"code":"002","message":"NO AUTORIZADO"}
+Response: {"code":"002","message":"NO AUTORIZADO"}
+Response: {"code":"002","message":"NO AUTORIZADO"}
+Response: {"code":"002","message":"NO AUTORIZADO"}
+Response: {"code":"002","message":"NO AUTORIZADO"}
+Response: {"code":"002","message":"NO AUTORIZADO"}
+Response: {"code":"002","message":"NO AUTORIZADO"}
+Response: {"code":"002","message":"NO AUTORIZADO"}
+Response: {"code":"002","message":"NO AUTORIZADO"}
+Response: {"code":"002","message":"NO AUTORIZADO"}
+Response: {"code":"002","message":"NO AUTORIZADO"}
+Response: {"code":"002","message":"NO AUTORIZADO"}
+Response: {"code":"002","message":"NO AUTORIZADO"}
+Response: {"code":"002","message":"NO AUTORIZADO"}
+Response: {"code":"002","message":"NO AUTORIZADO"}
+Response: {"code":"002","message":"NO AUTORIZADO"}
+Response: {"code":"002","message":"NO AUTORIZADO"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"NO AUTORIZADO"}
+Response: {"code":"002","message":"NO AUTORIZADO"}
+Response: {"code":"002","message":"NO AUTORIZADO"}
+Response: {"code":"002","message":"NO AUTORIZADO"}
+Response: {"code":"002","message":"NO AUTORIZADO"}
+Response: {"code":"002","message":"NO AUTORIZADO"}
+Response: {"code":"002","message":"NO AUTORIZADO"}
+Response: {"code":"002","message":"NO AUTORIZADO"}
+Response: {"code":"002","message":"NO AUTORIZADO"}
+Response: {"code":"002","message":"NO AUTORIZADO"}
+Response: {"code":"002","message":"NO AUTORIZADO"}
+Response: {"code":"002","message":"NO AUTORIZADO"}
+Response: {"code":"002","message":"NO AUTORIZADO"}
+Response: {"code":"002","message":"NO AUTORIZADO"}
+Response: {"code":"002","message":"NO AUTORIZADO"}
+Response: {"code":"002","message":"NO AUTORIZADO"}
+Response: {"code":"002","message":"NO AUTORIZADO"}
+Response: {"code":"002","message":"NO AUTORIZADO"}
+Response: {"code":"002","message":"NO AUTORIZADO"}
+Response: {"code":"002","message":"NO AUTORIZADO"}
+Response: {"code":"002","message":"NO AUTORIZADO"}

@@ -1,0 +1,279 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1725567579790,1111,loginCognito,200,OK,setUp Thread Group 1-1,text,true,,4157,465,1,1,https://cognito-idp.us-east-1.amazonaws.com/,1109,0,781
+1725567581420,993,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,993,0,338
+1725567582416,120,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,120,0,0
+1725567582063,654,preAutorizacion,200,OK,FlujoCompleto 2-1,text,true,,520,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,653,0,256
+1725567583024,109,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,109,0,0
+1725567583620,103,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,103,0,0
+1725567583557,244,autorizacion,200,OK,FlujoCompleto 2-1,text,true,,520,2064,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,244,0,0
+1725567584220,112,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,112,0,0
+1725567584818,110,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,110,0,0
+1725567584832,198,preAutorizacion,200,OK,FlujoCompleto 2-1,text,true,,520,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,198,0,0
+1725567585424,108,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,108,0,0
+1725567585806,115,autorizacion,200,OK,FlujoCompleto 2-1,text,true,,520,2064,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,115,0,0
+1725567586019,101,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,101,0,0
+1725567586616,102,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,102,0,0
+1725567587040,153,preAutorizacion,200,OK,FlujoCompleto 2-1,text,true,,520,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,153,0,0
+1725567587224,106,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,106,0,0
+1725567587817,107,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,107,0,0
+1725567587926,112,autorizacion,200,OK,FlujoCompleto 2-1,text,true,,520,2064,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,112,0,0
+1725567588422,112,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,112,0,0
+1725567589016,116,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,116,0,0
+1725567589202,151,preAutorizacion,200,OK,FlujoCompleto 2-1,text,true,,520,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,151,0,0
+1725567589618,97,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,97,0,0
+1725567590045,116,autorizacion,200,OK,FlujoCompleto 2-1,text,true,,520,2064,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,116,0,0
+1725567590223,98,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,98,0,0
+1725567590817,97,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,97,0,0
+1725567591364,142,preAutorizacion,200,OK,FlujoCompleto 2-1,text,true,,520,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,142,0,0
+1725567591421,97,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,97,0,0
+1725567592017,106,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,106,0,0
+1725567592165,111,autorizacion,200,OK,FlujoCompleto 2-1,text,true,,520,2064,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,111,0,0
+1725567592618,107,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,107,0,0
+1725567593217,108,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,108,0,0
+1725567593515,155,preAutorizacion,200,OK,FlujoCompleto 2-1,text,true,,520,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,155,0,0
+1725567593819,99,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,99,0,0
+1725567594281,113,autorizacion,200,OK,FlujoCompleto 2-1,text,true,,520,2064,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,113,0,0
+1725567594417,116,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,116,0,0
+1725567595017,104,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,104,0,0
+1725567595616,103,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,103,0,0
+1725567595684,168,preAutorizacion,200,OK,FlujoCompleto 2-1,text,false,Test failed: text expected to contain /000/,536,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,168,0,0
+1725567596218,115,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,115,0,0
+1725567596398,154,autorizacion,403,Forbidden,FlujoCompleto 2-1,text,false,Test failed: code expected to contain /200/,398,2064,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,154,0,0
+1725567596817,106,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,106,0,0
+1725567597417,105,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,105,0,0
+1725567597860,147,preAutorizacion,200,OK,FlujoCompleto 2-1,text,true,,520,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,147,0,0
+1725567598018,108,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,108,0,0
+1725567598566,123,autorizacion,200,OK,FlujoCompleto 2-1,text,true,,520,2064,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,123,0,0
+1725567598619,107,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,107,0,0
+1725567599216,103,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,103,0,0
+1725567599817,104,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,104,0,0
+1725567600019,166,preAutorizacion,200,OK,FlujoCompleto 2-1,text,true,,520,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,166,0,0
+1725567600427,115,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,115,0,0
+1725567600697,126,autorizacion,200,OK,FlujoCompleto 2-1,text,true,,520,2063,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,126,0,0
+1725567601018,104,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,104,0,0
+1725567601617,104,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,104,0,0
+1725567602228,112,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,112,0,0
+1725567602224,159,preAutorizacion,200,OK,FlujoCompleto 2-1,text,true,,520,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,159,0,0
+1725567602817,104,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,104,0,0
+1725567602902,116,autorizacion,200,OK,FlujoCompleto 2-1,text,true,,520,2063,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,116,0,0
+1725567603417,109,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,109,0,0
+1725567604017,101,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,101,0,0
+1725567604390,151,preAutorizacion,200,OK,FlujoCompleto 2-1,text,true,,520,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,151,0,0
+1725567604625,106,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,106,0,0
+1725567605048,103,autorizacion,200,OK,FlujoCompleto 2-1,text,true,,520,2063,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,103,0,0
+1725567605228,102,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,102,0,0
+1725567605817,102,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,102,0,0
+1725567606417,98,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,98,0,0
+1725567606550,151,preAutorizacion,200,OK,FlujoCompleto 2-1,text,true,,520,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,151,0,0
+1725567607021,102,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,101,0,0
+1725567607208,116,autorizacion,200,OK,FlujoCompleto 2-1,text,true,,520,2063,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,116,0,0
+1725567607619,98,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,98,0,0
+1725567608218,98,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,98,0,0
+1725567608708,155,preAutorizacion,200,OK,FlujoCompleto 2-1,text,false,Test failed: text expected to contain /000/,536,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,155,0,0
+1725567608820,110,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,110,0,0
+1725567609384,155,autorizacion,403,Forbidden,FlujoCompleto 2-1,text,false,Test failed: code expected to contain /200/,398,2063,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,155,0,0
+1725567609418,159,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,159,0,0
+1725567610017,102,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,102,0,0
+1725567610616,114,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,114,0,0
+1725567610874,142,preAutorizacion,200,OK,FlujoCompleto 2-1,text,true,,520,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,142,0,0
+1725567611217,107,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,107,0,0
+1725567611542,118,autorizacion,200,OK,FlujoCompleto 2-1,text,true,,520,2063,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,118,0,0
+1725567611822,99,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,99,0,0
+1725567612416,106,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,106,0,0
+1725567613016,112,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,112,0,0
+1725567613028,156,preAutorizacion,200,OK,FlujoCompleto 2-1,text,true,,520,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,156,0,0
+1725567613625,99,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,99,0,0
+1725567613702,106,autorizacion,200,OK,FlujoCompleto 2-1,text,true,,520,2063,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,106,0,0
+1725567614219,96,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,96,0,0
+1725567614831,152,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,152,0,0
+1725567615203,146,preAutorizacion,200,OK,FlujoCompleto 2-1,text,true,,520,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,146,0,0
+1725567615416,103,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,103,0,0
+1725567615858,105,autorizacion,200,OK,FlujoCompleto 2-1,text,true,,520,2063,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,105,0,0
+1725567616016,104,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,104,0,0
+1725567616616,107,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,107,0,0
+1725567617216,107,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,107,0,0
+1725567617358,238,preAutorizacion,200,OK,FlujoCompleto 2-1,text,false,Test failed: text expected to contain /000/,536,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,238,0,0
+1725567617816,103,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,103,0,0
+1725567618104,154,autorizacion,403,Forbidden,FlujoCompleto 2-1,text,false,Test failed: code expected to contain /200/,398,2063,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,154,0,0
+1725567618417,107,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,106,0,0
+1725567619016,112,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,112,0,0
+1725567619618,109,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,108,0,0
+1725567619608,162,preAutorizacion,200,OK,FlujoCompleto 2-1,text,true,,520,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,162,0,0
+1725567620216,102,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,102,0,0
+1725567620285,108,autorizacion,200,OK,FlujoCompleto 2-1,text,true,,520,2064,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,108,0,0
+1725567620816,98,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,98,0,0
+1725567621417,99,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,98,0,0
+1725567621774,173,preAutorizacion,200,OK,FlujoCompleto 2-1,text,false,Test failed: text expected to contain /000/,536,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,173,0,0
+1725567622018,118,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,118,0,0
+1725567622461,159,autorizacion,403,Forbidden,FlujoCompleto 2-1,text,false,Test failed: code expected to contain /200/,398,2064,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,159,0,0
+1725567622622,101,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,101,0,0
+1725567623217,99,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,99,0,0
+1725567623818,145,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,145,0,0
+1725567623969,156,preAutorizacion,200,OK,FlujoCompleto 2-1,text,false,Test failed: text expected to contain /000/,536,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,156,0,0
+1725567624417,129,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,129,0,0
+1725567624633,159,autorizacion,403,Forbidden,FlujoCompleto 2-1,text,false,Test failed: code expected to contain /200/,398,2064,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,159,0,0
+1725567625016,105,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,105,0,0
+1725567625617,133,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,133,0,0
+1725567626138,181,preAutorizacion,200,OK,FlujoCompleto 2-1,text,true,,520,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,181,0,0
+1725567626217,108,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,108,0,0
+1725567626817,100,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,100,0,0
+1725567626824,111,autorizacion,200,OK,FlujoCompleto 2-1,text,true,,520,2064,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,111,0,0
+1725567627416,100,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,100,0,0
+1725567628017,106,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,106,0,0
+1725567628333,153,preAutorizacion,200,OK,FlujoCompleto 2-1,text,true,,520,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,153,0,0
+1725567628616,101,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,101,0,0
+1725567628989,120,autorizacion,200,OK,FlujoCompleto 2-1,text,true,,520,2064,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,120,0,0
+1725567629216,103,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,103,0,0
+1725567629816,101,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,101,0,0
+1725567630417,103,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,103,0,0
+1725567630491,156,preAutorizacion,200,OK,FlujoCompleto 2-1,text,true,,520,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,156,0,0
+1725567631020,121,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,121,0,0
+1725567631155,116,autorizacion,200,OK,FlujoCompleto 2-1,text,true,,520,2064,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,116,0,0
+1725567631617,108,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,108,0,0
+1725567631414,472,autorizacionSalida,200,OK,SoloPago 3-1,text,true,,520,1994,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,472,0,333
+1725567632217,105,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,105,0,0
+1725567632654,156,preAutorizacion,200,OK,FlujoCompleto 2-1,text,false,Test failed: text expected to contain /000/,536,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,156,0,0
+1725567632817,97,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,97,0,0
+1725567633314,139,autorizacion,403,Forbidden,FlujoCompleto 2-1,text,false,Test failed: code expected to contain /200/,398,2064,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,139,0,0
+1725567633416,101,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,101,0,0
+1725567634017,101,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,101,0,0
+1725567634617,102,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,102,0,0
+1725567634815,154,preAutorizacion,200,OK,FlujoCompleto 2-1,text,true,,520,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,154,0,0
+1725567635216,101,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,101,0,0
+1725567635478,109,autorizacion,200,OK,FlujoCompleto 2-1,text,true,,520,2064,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,109,0,0
+1725567635817,103,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,103,0,0
+1725567636416,105,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,105,0,0
+1725567636415,302,autorizacionSalida,200,OK,SoloPago 3-1,text,true,,520,1994,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,302,0,0
+1725567636889,136,autorizacionSalida,403,Forbidden,SoloPago 3-1,text,false,,398,1994,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,136,0,0
+1725567637016,96,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,96,0,0
+1725567636991,145,preAutorizacion,200,OK,FlujoCompleto 2-1,text,true,,520,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,145,0,0
+1725567637616,101,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,101,0,0
+1725567637639,110,autorizacion,200,OK,FlujoCompleto 2-1,text,true,,520,2064,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,110,0,0
+1725567638217,97,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,97,0,0
+1725567638817,100,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,100,0,0
+1725567639141,150,preAutorizacion,200,OK,FlujoCompleto 2-1,text,true,,520,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,149,0,0
+1725567639417,99,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,99,0,0
+1725567639796,113,autorizacion,200,OK,FlujoCompleto 2-1,text,true,,520,2064,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,113,0,0
+1725567640017,126,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,126,0,0
+1725567640617,101,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,101,0,0
+1725567641217,101,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,101,0,0
+1725567641300,156,preAutorizacion,200,OK,FlujoCompleto 2-1,text,true,,520,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,156,0,0
+1725567641720,182,autorizacionSalida,200,OK,SoloPago 3-1,text,true,,520,1994,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,182,0,0
+1725567641964,112,autorizacion,200,OK,FlujoCompleto 2-1,text,true,,520,2064,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,112,0,0
+1725567641816,280,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,280,0,170
+1725567642027,161,autorizacionSalida,200,OK,SoloPago 3-1,text,true,,520,1994,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,161,0,0
+1725567642416,101,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,101,0,0
+1725567643016,105,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,105,0,0
+1725567643616,102,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,102,0,0
+1725567643471,350,preAutorizacion,200,OK,FlujoCompleto 2-1,text,true,,520,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,350,0,189
+1725567644217,103,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,103,0,0
+1725567644327,121,autorizacion,200,OK,FlujoCompleto 2-1,text,true,,520,2064,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,121,0,0
+1725567644817,101,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,101,0,0
+1725567645417,108,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,108,0,0
+1725567645826,159,preAutorizacion,200,OK,FlujoCompleto 2-1,text,false,Test failed: text expected to contain /000/,536,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,159,0,0
+1725567646017,109,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,109,0,0
+1725567646504,156,autorizacion,403,Forbidden,FlujoCompleto 2-1,text,false,Test failed: code expected to contain /200/,398,2064,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,156,0,0
+1725567646617,104,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,104,0,0
+1725567646906,144,autorizacionSalida,200,OK,SoloPago 3-1,text,true,,520,1994,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,144,0,0
+1725567647189,125,autorizacionSalida,403,Forbidden,SoloPago 3-1,text,false,,398,1995,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,125,0,0
+1725567647216,106,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,106,0,0
+1725567647816,107,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,107,0,0
+1725567648003,154,preAutorizacion,200,OK,FlujoCompleto 2-1,text,false,Test failed: text expected to contain /000/,536,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,154,0,0
+1725567648416,102,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,102,0,0
+1725567648664,214,autorizacion,403,Forbidden,FlujoCompleto 2-1,text,false,Test failed: code expected to contain /200/,398,2064,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,214,0,0
+1725567649016,102,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,102,0,0
+1725567649617,106,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,106,0,0
+1725567650162,165,preAutorizacion,200,OK,FlujoCompleto 2-1,text,true,,520,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,165,0,0
+1725567650218,122,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,122,0,0
+1725567650818,102,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,102,0,0
+1725567650883,128,autorizacion,200,OK,FlujoCompleto 2-1,text,true,,520,2064,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,127,0,0
+1725567651418,106,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,106,0,0
+1725567652018,109,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,109,0,0
+1725567652055,149,autorizacionSalida,200,OK,SoloPago 3-1,text,true,,520,1995,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,149,0,0
+1725567652318,136,autorizacionSalida,200,OK,SoloPago 3-1,text,true,,520,1995,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,136,0,0
+1725567652336,174,preAutorizacion,200,OK,FlujoCompleto 2-1,text,true,,520,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,174,0,0
+1725567652623,98,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,98,0,0
+1725567653016,130,autorizacion,200,OK,FlujoCompleto 2-1,text,true,,520,2064,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,130,0,0
+1725567653217,102,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,102,0,0
+1725567653818,104,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,104,0,0
+1725567654418,103,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,103,0,0
+1725567654518,171,preAutorizacion,200,OK,FlujoCompleto 2-1,text,true,,520,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,171,0,0
+1725567655016,99,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,99,0,0
+1725567655191,124,autorizacion,200,OK,FlujoCompleto 2-1,text,true,,520,2064,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,124,0,0
+1725567655616,105,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,105,0,0
+1725567656216,103,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,103,0,0
+1725567656691,162,preAutorizacion,200,OK,FlujoCompleto 2-1,text,true,,520,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,162,0,0
+1725567656817,100,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,100,0,0
+1725567657205,151,autorizacionSalida,200,OK,SoloPago 3-1,text,true,,520,1995,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,151,0,0
+1725567657356,124,autorizacion,200,OK,FlujoCompleto 2-1,text,true,,520,2064,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,124,0,0
+1725567657417,110,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,110,0,0
+1725567657456,149,autorizacionSalida,200,OK,SoloPago 3-1,text,true,,520,1995,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,149,0,0
+1725567658017,103,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,103,0,0
+1725567658616,99,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,99,0,0
+1725567658859,193,preAutorizacion,200,OK,FlujoCompleto 2-1,text,true,,520,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,193,0,0
+1725567659221,103,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,103,0,0
+1725567659557,124,autorizacion,200,OK,FlujoCompleto 2-1,text,true,,520,2064,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,124,0,0
+1725567659816,105,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,105,0,0
+1725567660416,104,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,104,0,0
+1725567661016,104,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,104,0,0
+1725567661071,166,preAutorizacion,200,OK,FlujoCompleto 2-1,text,true,,520,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,166,0,0
+1725567661619,106,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,106,0,0
+1725567661740,122,autorizacion,200,OK,FlujoCompleto 2-1,text,true,,520,2064,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,122,0,0
+1725567662216,134,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,134,0,0
+1725567662359,163,autorizacionSalida,403,Forbidden,SoloPago 3-1,text,false,,398,1995,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,163,0,0
+1725567662608,187,autorizacionSalida,200,OK,SoloPago 3-1,text,true,,520,1995,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,186,0,0
+1725567662817,120,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,120,0,0
+1725567663241,169,preAutorizacion,200,OK,FlujoCompleto 2-1,text,true,,520,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,169,0,0
+1725567663417,114,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,114,0,0
+1725567663914,154,autorizacion,200,OK,FlujoCompleto 2-1,text,true,,520,2064,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,154,0,0
+1725567664016,104,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,104,0,0
+1725567664616,107,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,107,0,0
+1725567665217,113,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,113,0,0
+1725567665414,164,preAutorizacion,200,OK,FlujoCompleto 2-1,text,false,Test failed: text expected to contain /000/,536,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,164,0,0
+1725567665816,116,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,116,0,0
+1725567666082,176,autorizacion,403,Forbidden,FlujoCompleto 2-1,text,false,Test failed: code expected to contain /200/,398,2063,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,176,0,0
+1725567666417,108,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,108,0,0
+1725567667016,108,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,108,0,0
+1725567667523,131,autorizacionSalida,403,Forbidden,SoloPago 3-1,text,false,,398,1995,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,131,0,0
+1725567667617,108,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,107,0,0
+1725567667582,184,preAutorizacion,200,OK,FlujoCompleto 2-1,text,false,Test failed: text expected to contain /000/,536,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,184,0,0
+1725567667798,129,autorizacionSalida,403,Forbidden,SoloPago 3-1,text,false,,398,1995,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,129,0,0
+1725567668216,107,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,107,0,0
+1725567668271,158,autorizacion,403,Forbidden,FlujoCompleto 2-1,text,false,Test failed: code expected to contain /200/,398,2063,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,157,0,0
+1725567668816,103,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,103,0,0
+1725567669417,104,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,104,0,0
+1725567669771,191,preAutorizacion,200,OK,FlujoCompleto 2-1,text,true,,520,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,191,0,0
+1725567670017,118,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,118,0,0
+1725567670469,129,autorizacion,200,OK,FlujoCompleto 2-1,text,true,,520,2063,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,128,0,0
+1725567670617,105,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,105,0,0
+1725567671217,105,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,105,0,0
+1725567671817,95,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,95,0,0
+1725567671970,162,preAutorizacion,200,OK,FlujoCompleto 2-1,text,true,,520,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,162,0,0
+1725567672417,100,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,99,0,0
+1725567672638,126,autorizacion,200,OK,FlujoCompleto 2-1,text,true,,520,2063,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,126,0,0
+1725567672657,178,autorizacionSalida,200,OK,SoloPago 3-1,text,true,,520,1995,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,178,0,0
+1725567672927,157,autorizacionSalida,200,OK,SoloPago 3-1,text,true,,520,1995,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,157,0,0
+1725567673016,122,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,122,0,0
+1725567673617,100,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,100,0,0
+1725567674217,102,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,102,0,0
+1725567674139,170,preAutorizacion,200,OK,FlujoCompleto 2-1,text,true,,520,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,170,0,0
+1725567674817,108,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,108,0,0
+1725567674832,116,autorizacion,200,OK,FlujoCompleto 2-1,text,true,,520,2063,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,116,0,0
+1725567675428,99,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,99,0,0
+1725567676341,160,preAutorizacion,200,OK,FlujoCompleto 2-1,text,true,,520,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,160,0,0
+1725567676016,586,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,585,0,0
+1725567676622,100,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,100,0,0
+1725567677010,123,autorizacion,200,OK,FlujoCompleto 2-1,text,true,,520,2063,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,123,0,0
+1725567677217,104,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,104,0,0
+1725567677816,99,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,99,0,0
+1725567677837,136,autorizacionSalida,403,Forbidden,SoloPago 3-1,text,false,,398,1995,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,136,0,0
+1725567678087,149,autorizacionSalida,200,OK,SoloPago 3-1,text,true,,520,1995,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,149,0,0
+1725567678418,100,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,100,0,0
+1725567678502,216,preAutorizacion,200,OK,FlujoCompleto 2-1,text,true,,520,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,216,0,0
+1725567679016,96,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,95,0,0
+1725567679220,139,autorizacion,200,OK,FlujoCompleto 2-1,text,true,,520,2063,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,139,0,0
+1725567679616,98,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,98,0,0
+1725567680217,97,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,97,0,0
+1725567680723,165,preAutorizacion,200,OK,FlujoCompleto 2-1,text,true,,520,1805,1,3,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,165,0,0
+1725567680816,109,preAutorizacionPlacasNoFlypass,404,Not Found,preAutorizacionPlacasNoFlypass 1-1,text,false,,420,1805,1,2,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,109,0,0
+1725567682976,233,autorizacionSalida,200,OK,SoloPago 3-1,text,true,,520,1995,1,1,https://cert-api.flypass.com.co/payment-authorizer/api/v1/payment-authorization,233,0,0
