@@ -133,7 +133,7 @@ $(document).ready(function() {
         widgets: ['zebra']
     });
 
-    var data = {"OkPercent": 41.1764705882353, "KoPercent": 58.8235294117647};
+    var data = {"OkPercent": 33.51278600269179, "KoPercent": 66.48721399730822};
     var dataset = [
         {
             "label" : "FAIL",
@@ -173,7 +173,7 @@ $(document).ready(function() {
     });
 
     // Creates APDEX table
-    createTable($("#apdexTable"), {"supportsControllersDiscrimination": true, "overall": {"data": [0.4012605042016807, 600, 700, "Total"], "isController": false}, "titles": ["Apdex", "T (Toleration threshold)", "F (Frustration threshold)", "Label"], "items": [{"data": [0.75, 600, 700, "autorizacionSalida"], "isController": false}, {"data": [0.0, 600, 700, "preAutorizacionPlacasNoFlypass"], "isController": false}, {"data": [0.9, 600, 700, "autorizacion"], "isController": false}, {"data": [0.8888888888888888, 600, 700, "preAutorizacion"], "isController": false}, {"data": [0.0, 600, 700, "loginCognito"], "isController": false}]}, function(index, item){
+    createTable($("#apdexTable"), {"supportsControllersDiscrimination": true, "overall": {"data": [0.3283983849259758, 900, 400, "Total"], "isController": false}, "titles": ["Apdex", "T (Toleration threshold)", "F (Frustration threshold)", "Label"], "items": [{"data": [0.391304347826087, 900, 400, "autorizacionSalida"], "isController": false}, {"data": [0.0, 900, 400, "preAutorizacionPlacasNoFlypass"], "isController": false}, {"data": [0.5757575757575758, 900, 400, "autorizacion"], "isController": false}, {"data": [0.9850746268656716, 900, 400, "preAutorizacion"], "isController": false}, {"data": [0.0, 900, 400, "loginCognito"], "isController": false}]}, function(index, item){
         switch(index){
             case 0:
                 item = item.toFixed(3);
@@ -187,7 +187,7 @@ $(document).ready(function() {
     }, [[0, 0]], 3);
 
     // Create statistics table
-    createTable($("#statisticsTable"), {"supportsControllersDiscrimination": true, "overall": {"data": ["Total", 238, 140, 58.8235294117647, 165.64705882352945, 101, 2137, 122.0, 192.0, 248.29999999999956, 1698.0699999999854, 2.3033446887581297, 1.0742395424038014, 4.193289134479522], "isController": false}, "titles": ["Label", "#Samples", "FAIL", "Error %", "Average", "Min", "Max", "Median", "90th pct", "95th pct", "99th pct", "Transactions/s", "Received", "Sent"], "items": [{"data": ["autorizacionSalida", 20, 5, 25.0, 182.5, 141, 512, 161.0, 195.0, 496.14999999999975, 512.0, 0.3868322308614754, 0.18491638379559786, 0.7535295418939306], "isController": false}, {"data": ["preAutorizacionPlacasNoFlypass", 127, 127, 100.0, 144.33070866141728, 101, 2083, 114.0, 134.2, 208.99999999999946, 1676.1599999999983, 1.268845350730835, 0.520424850885694, 2.2365877520206614], "isController": false}, {"data": ["autorizacion", 45, 4, 8.88888888888889, 148.9777777777778, 108, 629, 128.0, 190.8, 250.89999999999966, 629.0, 0.46753732506311757, 0.2324699477397168, 0.9422175814813661], "isController": false}, {"data": ["preAutorizacion", 45, 4, 8.88888888888889, 214.3111111111111, 143, 2137, 166.0, 202.39999999999998, 300.09999999999945, 2137.0, 0.4574983987556044, 0.23295882006079643, 0.8064302829627596], "isController": false}, {"data": ["loginCognito", 1, 0, 0.0, 1096.0, 1096, 1096, 1096.0, 1096.0, 1096.0, 1096.0, 0.9124087591240876, 3.703987511405109, 0.4143262431569343], "isController": false}]}, function(index, item){
+    createTable($("#statisticsTable"), {"supportsControllersDiscrimination": true, "overall": {"data": ["Total", 743, 494, 66.48721399730822, 612.913862718708, 117, 4365, 707.0, 801.6, 830.8, 1155.7199999999966, 2.4241593746125587, 1.1033157231042292, 4.496091226533289], "isController": false}, "titles": ["Label", "#Samples", "FAIL", "Error %", "Average", "Min", "Max", "Median", "90th pct", "95th pct", "99th pct", "Transactions/s", "Received", "Sent"], "items": [{"data": ["autorizacionSalida", 92, 55, 59.78260869565217, 593.2173913043479, 447, 2728, 553.0, 699.5, 765.0499999999998, 2728.0, 0.30452887397138756, 0.1390175861287098, 0.6027090863802771], "isController": false}, {"data": ["preAutorizacionPlacasNoFlypass", 384, 384, 100.0, 779.2135416666664, 682, 4365, 759.0, 824.0, 859.0, 1130.2999999999986, 1.2803585003801063, 0.525147041171528, 2.2918917296843118], "isController": false}, {"data": ["autorizacion", 132, 55, 41.666666666666664, 181.1363636363636, 117, 1015, 150.0, 274.7, 370.8499999999999, 926.2299999999966, 0.4469470469328259, 0.21350080585906947, 0.9108966515370577], "isController": false}, {"data": ["preAutorizacion", 134, 0, 0.0, 565.7313432835823, 418, 2644, 520.0, 654.5, 691.75, 2635.9500000000003, 0.44119729091693305, 0.2355853858747724, 0.7872749204445557], "isController": false}, {"data": ["loginCognito", 1, 0, 0.0, 1883.0, 1883, 1883, 1883.0, 1883.0, 1883.0, 1883.0, 0.5310674455655868, 2.1559056359532662, 0.24115855682421666], "isController": false}]}, function(index, item){
         switch(index){
             // Errors pct
             case 3:
@@ -217,7 +217,7 @@ $(document).ready(function() {
     }, [[0, 0]], 0, summaryTableHeader);
 
     // Create error table
-    createTable($("#errorsTable"), {"supportsControllersDiscrimination": false, "titles": ["Type of error", "Number of errors", "% in errors", "% in all samples"], "items": [{"data": ["Test failed: text expected to contain /000/", 4, 2.857142857142857, 1.680672268907563], "isController": false}, {"data": ["403/Forbidden", 9, 6.428571428571429, 3.7815126050420167], "isController": false}, {"data": ["404/Not Found", 127, 90.71428571428571, 53.36134453781513], "isController": false}]}, function(index, item){
+    createTable($("#errorsTable"), {"supportsControllersDiscrimination": false, "titles": ["Type of error", "Number of errors", "% in errors", "% in all samples"], "items": [{"data": ["400/Bad Request", 110, 22.267206477732792, 14.804845222072679], "isController": false}, {"data": ["404/Not Found", 384, 77.7327935222672, 51.68236877523553], "isController": false}]}, function(index, item){
         switch(index){
             case 2:
             case 3:
@@ -228,7 +228,7 @@ $(document).ready(function() {
     }, [[1, 1]]);
 
         // Create top5 errors by sampler
-    createTable($("#top5ErrorsBySamplerTable"), {"supportsControllersDiscrimination": false, "overall": {"data": ["Total", 238, 140, "404/Not Found", 127, "403/Forbidden", 9, "Test failed: text expected to contain /000/", 4, "", "", "", ""], "isController": false}, "titles": ["Sample", "#Samples", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors"], "items": [{"data": ["autorizacionSalida", 20, 5, "403/Forbidden", 5, "", "", "", "", "", "", "", ""], "isController": false}, {"data": ["preAutorizacionPlacasNoFlypass", 127, 127, "404/Not Found", 127, "", "", "", "", "", "", "", ""], "isController": false}, {"data": ["autorizacion", 45, 4, "403/Forbidden", 4, "", "", "", "", "", "", "", ""], "isController": false}, {"data": ["preAutorizacion", 45, 4, "Test failed: text expected to contain /000/", 4, "", "", "", "", "", "", "", ""], "isController": false}, {"data": [], "isController": false}]}, function(index, item){
+    createTable($("#top5ErrorsBySamplerTable"), {"supportsControllersDiscrimination": false, "overall": {"data": ["Total", 743, 494, "404/Not Found", 384, "400/Bad Request", 110, "", "", "", "", "", ""], "isController": false}, "titles": ["Sample", "#Samples", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors"], "items": [{"data": ["autorizacionSalida", 92, 55, "400/Bad Request", 55, "", "", "", "", "", "", "", ""], "isController": false}, {"data": ["preAutorizacionPlacasNoFlypass", 384, 384, "404/Not Found", 384, "", "", "", "", "", "", "", ""], "isController": false}, {"data": ["autorizacion", 132, 55, "400/Bad Request", 55, "", "", "", "", "", "", "", ""], "isController": false}, {"data": [], "isController": false}, {"data": [], "isController": false}]}, function(index, item){
         return item;
     }, [[0, 0]], 0);
 

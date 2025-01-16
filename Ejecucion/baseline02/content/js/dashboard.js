@@ -133,7 +133,7 @@ $(document).ready(function() {
         widgets: ['zebra']
     });
 
-    var data = {"OkPercent": 30.93525179856115, "KoPercent": 69.06474820143885};
+    var data = {"OkPercent": 34.941912421805185, "KoPercent": 65.05808757819482};
     var dataset = [
         {
             "label" : "FAIL",
@@ -173,7 +173,7 @@ $(document).ready(function() {
     });
 
     // Creates APDEX table
-    createTable($("#apdexTable"), {"supportsControllersDiscrimination": true, "overall": {"data": [0.302158273381295, 400, 900, "Total"], "isController": false}, "titles": ["Apdex", "T (Toleration threshold)", "F (Frustration threshold)", "Label"], "items": [{"data": [0.675, 400, 900, "autorizacionSalida"], "isController": false}, {"data": [0.0, 400, 900, "preAutorizacionPlacasNoFlypass"], "isController": false}, {"data": [0.7777777777777778, 400, 900, "autorizacion"], "isController": false}, {"data": [0.7717391304347826, 400, 900, "preAutorizacion"], "isController": false}, {"data": [0.0, 400, 900, "loginCognito"], "isController": false}]}, function(index, item){
+    createTable($("#apdexTable"), {"supportsControllersDiscrimination": true, "overall": {"data": [0.34584450402144773, 900, 400, "Total"], "isController": false}, "titles": ["Apdex", "T (Toleration threshold)", "F (Frustration threshold)", "Label"], "items": [{"data": [0.3972602739726027, 900, 400, "autorizacionSalida"], "isController": false}, {"data": [0.0, 900, 400, "preAutorizacionPlacasNoFlypass"], "isController": false}, {"data": [0.6206896551724138, 900, 400, "autorizacion"], "isController": false}, {"data": [0.9902439024390244, 900, 400, "preAutorizacion"], "isController": false}, {"data": [0.0, 900, 400, "loginCognito"], "isController": false}]}, function(index, item){
         switch(index){
             case 0:
                 item = item.toFixed(3);
@@ -187,7 +187,7 @@ $(document).ready(function() {
     }, [[0, 0]], 3);
 
     // Create statistics table
-    createTable($("#statisticsTable"), {"supportsControllersDiscrimination": true, "overall": {"data": ["Total", 278, 192, 69.06474820143885, 136.7158273381294, 95, 1111, 110.0, 168.1, 198.80000000000018, 725.189999999993, 2.6880940639534323, 1.225719600000967, 4.871367854915441], "isController": false}, "titles": ["Label", "#Samples", "FAIL", "Error %", "Average", "Min", "Max", "Median", "90th pct", "95th pct", "99th pct", "Transactions/s", "Received", "Sent"], "items": [{"data": ["autorizacionSalida", 20, 6, 30.0, 178.5, 125, 472, 150.0, 295.10000000000014, 463.4999999999999, 472.0, 0.3861376580751038, 0.1822841249155324, 0.752176549377353], "isController": false}, {"data": ["preAutorizacionPlacasNoFlypass", 166, 166, 100.0, 115.4819277108434, 95, 993, 104.0, 118.0, 131.60000000000002, 720.3100000000051, 1.6682578764886187, 0.684246394653535, 2.940630338927692], "isController": false}, {"data": ["autorizacion", 45, 10, 22.22222222222222, 131.2666666666667, 103, 244, 123.0, 159.0, 202.59999999999985, 244.0, 0.46971879501471786, 0.22609294430178908, 0.9466138493977161], "isController": false}, {"data": ["preAutorizacion", 46, 10, 21.73913043478261, 179.32608695652172, 142, 654, 161.0, 203.4000000000001, 310.79999999999984, 654.0, 0.4654692638502403, 0.23795218821148495, 0.8204804895016443], "isController": false}, {"data": ["loginCognito", 1, 0, 0.0, 1111.0, 1111, 1111, 1111.0, 1111.0, 1111.0, 1111.0, 0.9000900090009001, 3.6539786791179116, 0.4087322794779478], "isController": false}]}, function(index, item){
+    createTable($("#statisticsTable"), {"supportsControllersDiscrimination": true, "overall": {"data": ["Total", 1119, 728, 65.05808757819482, 597.2225201072398, 110, 4457, 699.0, 817.0, 854.0, 1030.5999999999988, 1.855875279873953, 0.8446362675180362, 3.4466185784476324], "isController": false}, "titles": ["Label", "#Samples", "FAIL", "Error %", "Average", "Min", "Max", "Median", "90th pct", "95th pct", "99th pct", "Transactions/s", "Received", "Sent"], "items": [{"data": ["autorizacionSalida", 146, 87, 59.58904109589041, 552.3356164383564, 427, 2226, 520.5, 647.3, 709.25, 1593.8500000000015, 0.24325305982359155, 0.11110265903918375, 0.48144431348071803], "isController": false}, {"data": ["preAutorizacionPlacasNoFlypass", 564, 564, 100.0, 787.1719858156027, 680, 4457, 767.0, 848.5, 885.75, 1201.6500000000033, 0.9401347526478795, 0.38560214464073184, 1.6828779312534796], "isController": false}, {"data": ["autorizacion", 203, 77, 37.93103448275862, 172.4334975369459, 110, 887, 149.0, 194.99999999999997, 293.5999999999999, 742.440000000001, 0.34250157753189653, 0.16511821260574525, 0.6977214128232253], "isController": false}, {"data": ["preAutorizacion", 205, 0, 0.0, 522.5219512195124, 394, 2525, 495.0, 592.6, 646.0999999999999, 2054.0399999999972, 0.34125715807697427, 0.1820097783701225, 0.6086072364204621], "isController": false}, {"data": ["loginCognito", 1, 0, 0.0, 1565.0, 1565, 1565, 1565.0, 1565.0, 1565.0, 1565.0, 0.6389776357827476, 2.59397464057508, 0.2901607428115016], "isController": false}]}, function(index, item){
         switch(index){
             // Errors pct
             case 3:
@@ -217,7 +217,7 @@ $(document).ready(function() {
     }, [[0, 0]], 0, summaryTableHeader);
 
     // Create error table
-    createTable($("#errorsTable"), {"supportsControllersDiscrimination": false, "titles": ["Type of error", "Number of errors", "% in errors", "% in all samples"], "items": [{"data": ["Test failed: text expected to contain /000/", 10, 5.208333333333333, 3.597122302158273], "isController": false}, {"data": ["403/Forbidden", 16, 8.333333333333334, 5.755395683453237], "isController": false}, {"data": ["404/Not Found", 166, 86.45833333333333, 59.71223021582734], "isController": false}]}, function(index, item){
+    createTable($("#errorsTable"), {"supportsControllersDiscrimination": false, "titles": ["Type of error", "Number of errors", "% in errors", "% in all samples"], "items": [{"data": ["400/Bad Request", 164, 22.52747252747253, 14.655942806076855], "isController": false}, {"data": ["404/Not Found", 564, 77.47252747252747, 50.402144772117964], "isController": false}]}, function(index, item){
         switch(index){
             case 2:
             case 3:
@@ -228,7 +228,7 @@ $(document).ready(function() {
     }, [[1, 1]]);
 
         // Create top5 errors by sampler
-    createTable($("#top5ErrorsBySamplerTable"), {"supportsControllersDiscrimination": false, "overall": {"data": ["Total", 278, 192, "404/Not Found", 166, "403/Forbidden", 16, "Test failed: text expected to contain /000/", 10, "", "", "", ""], "isController": false}, "titles": ["Sample", "#Samples", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors"], "items": [{"data": ["autorizacionSalida", 20, 6, "403/Forbidden", 6, "", "", "", "", "", "", "", ""], "isController": false}, {"data": ["preAutorizacionPlacasNoFlypass", 166, 166, "404/Not Found", 166, "", "", "", "", "", "", "", ""], "isController": false}, {"data": ["autorizacion", 45, 10, "403/Forbidden", 10, "", "", "", "", "", "", "", ""], "isController": false}, {"data": ["preAutorizacion", 46, 10, "Test failed: text expected to contain /000/", 10, "", "", "", "", "", "", "", ""], "isController": false}, {"data": [], "isController": false}]}, function(index, item){
+    createTable($("#top5ErrorsBySamplerTable"), {"supportsControllersDiscrimination": false, "overall": {"data": ["Total", 1119, 728, "404/Not Found", 564, "400/Bad Request", 164, "", "", "", "", "", ""], "isController": false}, "titles": ["Sample", "#Samples", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors"], "items": [{"data": ["autorizacionSalida", 146, 87, "400/Bad Request", 87, "", "", "", "", "", "", "", ""], "isController": false}, {"data": ["preAutorizacionPlacasNoFlypass", 564, 564, "404/Not Found", 564, "", "", "", "", "", "", "", ""], "isController": false}, {"data": ["autorizacion", 203, 77, "400/Bad Request", 77, "", "", "", "", "", "", "", ""], "isController": false}, {"data": [], "isController": false}, {"data": [], "isController": false}]}, function(index, item){
         return item;
     }, [[0, 0]], 0);
 

@@ -1,0 +1,593 @@
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+baseline02
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+carga01
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+carga02
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+carga03
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+estres01
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+estres02
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+Response: {"code":"002","message":"paymentAuthorizationId no valido"}
+estres03
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+carga 05
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}
+Response: {"code":"002","message":"Saldo insuficiente en billetera"}

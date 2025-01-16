@@ -1,0 +1,593 @@
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":35945,"automaticPayment":false,"paymentAuthorizationId":"b86ef199-f14f-4425-a8d1-f0f4450fbdb6"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":35945,"automaticPayment":false,"paymentAuthorizationId":"1045a117-f744-41dc-95f8-bad88b908c80"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":1088,"automaticPayment":false,"paymentAuthorizationId":"682d8673-4713-4cfc-a5b9-118351308413"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":16980,"automaticPayment":false,"paymentAuthorizationId":"df1685fe-f7cd-4af2-8c19-ce56cb2fb8ca"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":15194,"automaticPayment":false,"paymentAuthorizationId":"a578af8f-6b3d-47f7-a277-8b99f64b5930"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":2489,"automaticPayment":false,"paymentAuthorizationId":"a04862b8-3628-45d7-9674-68ea312d064d"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":2634,"automaticPayment":false,"paymentAuthorizationId":"d0889d5b-94b6-49b3-b460-21de845ae5df"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":11308,"automaticPayment":false,"paymentAuthorizationId":"512c7901-dc35-45d5-9df4-7b6b4a06f2df"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":14372,"automaticPayment":false,"paymentAuthorizationId":"3615f254-2d15-4eb2-980d-dc60394dba45"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":15696,"automaticPayment":false,"paymentAuthorizationId":"5c7a43ea-5f21-4e36-aee0-ed3efd439eb7"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":15832,"automaticPayment":false,"paymentAuthorizationId":"d62f365e-976d-416c-a839-e71e3c62d86a"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":2917,"automaticPayment":false,"paymentAuthorizationId":"5fb1538e-0b52-44c5-9969-d44799d5e75d"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":415,"automaticPayment":false,"paymentAuthorizationId":"4607dd21-38c2-45ad-bc94-48353d30072d"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":3467,"automaticPayment":false,"paymentAuthorizationId":"3bdd6542-6c40-4256-a5ef-921b84f79730"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":15895,"automaticPayment":false,"paymentAuthorizationId":"ba29d4d7-d8c2-4777-8bb9-f8fc95af8d82"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":8034,"automaticPayment":false,"paymentAuthorizationId":"b297c24b-d8fd-4566-bd1b-24802649d990"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":39930,"automaticPayment":false,"paymentAuthorizationId":"7989dc4b-31b9-4593-a6a1-c6342fd1ba2d"}}
+baseline02
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":35945,"automaticPayment":false,"paymentAuthorizationId":"f19a67f5-41fb-4b18-b9ad-27e4fad962ca"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":1088,"automaticPayment":false,"paymentAuthorizationId":"f896d57f-a813-47b8-9bb4-6f84d8b91f0a"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":16980,"automaticPayment":false,"paymentAuthorizationId":"2390a3c6-a661-4925-b6ac-82fab8d8daac"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":15194,"automaticPayment":false,"paymentAuthorizationId":"3703541c-a104-41bd-9208-cf7eda52f36d"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":2489,"automaticPayment":false,"paymentAuthorizationId":"7bf7f5e4-9062-4c99-80ce-b57c1124f912"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":7095,"automaticPayment":false,"paymentAuthorizationId":"5416df41-2706-437b-ab86-0b96dfd10920"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":4954,"automaticPayment":false,"paymentAuthorizationId":"e990e41f-99b9-456a-bebd-4b5c4c6a1a6d"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":2634,"automaticPayment":false,"paymentAuthorizationId":"84ac8751-bf84-47cb-9c06-621de011375a"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":11308,"automaticPayment":false,"paymentAuthorizationId":"442145c2-e62d-4426-af69-71a27197aa52"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":14372,"automaticPayment":false,"paymentAuthorizationId":"c0ede054-7922-4ae1-a4ab-140d326152e4"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":15696,"automaticPayment":false,"paymentAuthorizationId":"ac8cd76e-7962-43ca-85af-eed463864f6e"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":15832,"automaticPayment":false,"paymentAuthorizationId":"7534f986-3643-4f6e-8e9a-61ef7eea0a30"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":2917,"automaticPayment":false,"paymentAuthorizationId":"9d56a225-81ab-4f14-82ec-5c23d94dd7ac"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":415,"automaticPayment":false,"paymentAuthorizationId":"28c028a0-4265-4483-9179-657b61991b6f"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":3467,"automaticPayment":false,"paymentAuthorizationId":"7d60ecf1-2e78-4f59-b849-e24f88c3e97f"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":15895,"automaticPayment":false,"paymentAuthorizationId":"8e47fb62-ac10-4997-a11b-03d5e6f04721"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":8034,"automaticPayment":false,"paymentAuthorizationId":"46ed1466-3944-4199-9398-38ec9c8b5377"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":39930,"automaticPayment":false,"paymentAuthorizationId":"c20bc872-b9d0-4c4e-9192-c4dfb485f978"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":3951,"automaticPayment":false,"paymentAuthorizationId":"e65d6111-c81d-460f-9331-d9f41357c8ab"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":31771,"automaticPayment":false,"paymentAuthorizationId":"f00347eb-ec3f-4fdc-9ef2-ad7367a06e86"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":5210,"automaticPayment":false,"paymentAuthorizationId":"1df89913-e30e-4177-9279-63d7456e585a"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":9702,"automaticPayment":false,"paymentAuthorizationId":"dbc20175-8fd2-41c5-b93b-c94c9776117a"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":35945,"automaticPayment":false,"paymentAuthorizationId":"41fd35bb-c572-4535-a533-f1d9eb15a330"}}
+carga01
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":35945,"automaticPayment":false,"paymentAuthorizationId":"535b4023-8b73-44d4-8850-533657b9e91c"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":1088,"automaticPayment":false,"paymentAuthorizationId":"218ba05c-52be-4053-a147-45a90918b231"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":16980,"automaticPayment":false,"paymentAuthorizationId":"d90e6663-2874-49d0-b2ab-c1f68a15c758"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":15194,"automaticPayment":false,"paymentAuthorizationId":"083ae136-91db-4485-ad3e-1abb8b219b8f"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":2489,"automaticPayment":false,"paymentAuthorizationId":"3769f829-5430-476e-a602-03d8e49bc1a1"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":7095,"automaticPayment":false,"paymentAuthorizationId":"4c677ddc-9cb7-4896-9ae6-71b323b2f6f0"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":4954,"automaticPayment":false,"paymentAuthorizationId":"e53dc435-32d7-4862-b624-277c9733fc3f"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":2634,"automaticPayment":false,"paymentAuthorizationId":"9daf31e0-c25a-411c-9b5e-145aff1a9ba1"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":11308,"automaticPayment":false,"paymentAuthorizationId":"e9f42c3b-66ee-45af-a187-cb2011e3a9a1"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":14372,"automaticPayment":false,"paymentAuthorizationId":"6e4d8bc9-2277-4dae-a478-4bd47aff6af0"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":15696,"automaticPayment":false,"paymentAuthorizationId":"2c7c5713-07d8-438d-8b93-c3b8e6eba20b"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":15832,"automaticPayment":false,"paymentAuthorizationId":"0a6ecffa-41d9-494a-a11e-94035fbba1cb"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":2917,"automaticPayment":false,"paymentAuthorizationId":"4e1b445c-5166-4d3e-aa17-0fc1a2d9ca2b"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":415,"automaticPayment":false,"paymentAuthorizationId":"b248392d-4682-4287-a0da-a3b32c65145e"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":3467,"automaticPayment":false,"paymentAuthorizationId":"0bf3efe0-9105-419d-8c07-e7387d4416ab"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":15895,"automaticPayment":false,"paymentAuthorizationId":"61a6a9c0-67d7-4061-bcd6-50233caaee51"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":8034,"automaticPayment":false,"paymentAuthorizationId":"af630b2e-8656-4abd-8955-f82fb2a30123"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":39930,"automaticPayment":false,"paymentAuthorizationId":"4987c6c0-b042-4bdb-82b8-35af1c5e5d23"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":11526,"automaticPayment":false,"paymentAuthorizationId":"197d4238-6749-4a17-888c-e09392aa091b"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":5118,"automaticPayment":false,"paymentAuthorizationId":"90b73811-684a-4b68-b926-d6fe73b9e4d2"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":5525,"automaticPayment":false,"paymentAuthorizationId":"2bb9df83-156a-4f1b-a27d-d31a9e38a335"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":3951,"automaticPayment":false,"paymentAuthorizationId":"7bbb060d-e0f6-464a-8c03-b8b81521faed"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":31771,"automaticPayment":false,"paymentAuthorizationId":"db7d1196-b55c-4bf7-b8af-2a42f38cd788"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":5210,"automaticPayment":false,"paymentAuthorizationId":"71ccfaeb-3822-439b-a1c4-86c6779f539d"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":9702,"automaticPayment":false,"paymentAuthorizationId":"cb173baa-aeb1-441f-a9e9-7c8331dd1113"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":28310,"automaticPayment":false,"paymentAuthorizationId":"388e50bc-e47a-4670-9b01-94ff109cfb70"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":6578,"automaticPayment":false,"paymentAuthorizationId":"f5085a9a-a795-4291-a313-6a816c37cae6"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":3501,"automaticPayment":false,"paymentAuthorizationId":"c22b75a6-39c2-4710-8c93-4ba5076c3c6e"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":3581,"automaticPayment":false,"paymentAuthorizationId":"eda00af6-f4dc-4f3e-a4e2-50cc4edcc3eb"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":2650,"automaticPayment":false,"paymentAuthorizationId":"c4786ecb-4683-48f4-8e14-5a2908cc1d8b"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":11410,"automaticPayment":false,"paymentAuthorizationId":"a554a2a8-d37f-496c-8360-1e03610df8d5"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":2784,"automaticPayment":false,"paymentAuthorizationId":"8c9664a8-185f-41c4-a8e8-eb33d7715b9f"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":8846,"automaticPayment":false,"paymentAuthorizationId":"22da1e35-170c-4a0e-a042-201b54059ea1"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":15717,"automaticPayment":false,"paymentAuthorizationId":"cd2abd50-3154-489d-a9d6-b14c82c70b31"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":11938,"automaticPayment":false,"paymentAuthorizationId":"1c67b168-b0ae-4147-8e7d-cf6a9580b4f6"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":4704,"automaticPayment":false,"paymentAuthorizationId":"d6400976-88b8-48e9-a3d0-4f770878bf6b"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":1845,"automaticPayment":false,"paymentAuthorizationId":"5a585e55-8abe-49cf-b312-ee9997137b42"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":15811,"automaticPayment":false,"paymentAuthorizationId":"f0d64d02-0a27-4d5d-a11f-fcf2c9bf5785"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":11363,"automaticPayment":false,"paymentAuthorizationId":"8edf64c8-e104-4979-87ef-1c726fb4102d"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":12475,"automaticPayment":false,"paymentAuthorizationId":"b411675a-674a-4a3b-a099-3e8f8da766d9"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":2980,"automaticPayment":false,"paymentAuthorizationId":"7899b190-b602-49e7-a8ca-b86bfdd1a006"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":35945,"automaticPayment":false,"paymentAuthorizationId":"9d84064c-4279-40a4-9bb8-0c4a1cf16305"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":35945,"automaticPayment":false,"paymentAuthorizationId":"e75bf1e1-df20-49ae-a002-f8d69c297246"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":35945,"automaticPayment":false,"paymentAuthorizationId":"8b2c047a-6835-47db-a75e-f71d69a2c712"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":35945,"automaticPayment":false,"paymentAuthorizationId":"ab01a3a9-11b1-426d-946b-f67609dd6f5e"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":35945,"automaticPayment":false,"paymentAuthorizationId":"a605a56f-a28a-4483-8575-5440a8f56bc3"}}
+carga02
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":35945,"automaticPayment":false,"paymentAuthorizationId":"71c477fa-f715-4c62-ae1d-ef004e554d94"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":35945,"automaticPayment":false,"paymentAuthorizationId":"a83e6c77-76fb-48ce-a159-ccb412cd01e3"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":35945,"automaticPayment":false,"paymentAuthorizationId":"009e14f5-daaf-493f-b2b4-5a18c233f67e"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":39996,"automaticPayment":false,"paymentAuthorizationId":"7942203f-1a0f-4c89-84c5-0e7c1a030ac2"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":1088,"automaticPayment":false,"paymentAuthorizationId":"413370d0-4d11-4caa-acc8-54eb944e61b4"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":16980,"automaticPayment":false,"paymentAuthorizationId":"894596e6-31a5-42a6-a09f-3f023e57fd11"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":15194,"automaticPayment":false,"paymentAuthorizationId":"06ee4064-a376-42ae-a670-275b06ee1cb8"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":2489,"automaticPayment":false,"paymentAuthorizationId":"75df286d-1c48-4750-b24c-256c69924882"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":7095,"automaticPayment":false,"paymentAuthorizationId":"4e82ad11-2604-427e-8ee2-2e0979088143"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":4954,"automaticPayment":false,"paymentAuthorizationId":"5b9bb7ad-8d2f-4199-b564-d7f9045359e2"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":2634,"automaticPayment":false,"paymentAuthorizationId":"b82ce238-f889-4d4c-ace8-8f1807637e03"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":11308,"automaticPayment":false,"paymentAuthorizationId":"315d001b-7ff8-4a37-a890-519e2e731c5e"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":14372,"automaticPayment":false,"paymentAuthorizationId":"0e320248-8ed2-4f9c-8659-5dbbaf80546a"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":15696,"automaticPayment":false,"paymentAuthorizationId":"e4d55e63-788d-4de9-b33c-5b5ad88ab7ea"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":15832,"automaticPayment":false,"paymentAuthorizationId":"74a3430f-5756-4694-84e7-7b6ebd2c8a6d"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":2917,"automaticPayment":false,"paymentAuthorizationId":"9c8dee99-2a5d-41a8-85a5-afa7cab29e16"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":415,"automaticPayment":false,"paymentAuthorizationId":"c07a68b7-a3de-48dd-ada9-517f790ca335"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":3467,"automaticPayment":false,"paymentAuthorizationId":"f2575d78-38b6-460f-9a7c-e627a33a3e65"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":15895,"automaticPayment":false,"paymentAuthorizationId":"0e28a27e-6ad9-49e5-8ac5-9d66ea39c486"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":8034,"automaticPayment":false,"paymentAuthorizationId":"22e10da4-ff3f-49cb-88cf-c801a7ec80fd"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":39930,"automaticPayment":false,"paymentAuthorizationId":"18b6bdb7-f3fa-4d01-baa3-52a8272f712a"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":11526,"automaticPayment":false,"paymentAuthorizationId":"7b0cfd85-bd6a-4fdf-89b3-867ea3bf98bc"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":5118,"automaticPayment":false,"paymentAuthorizationId":"ec3fd03d-9417-4dca-804f-7a0f5df55352"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":5525,"automaticPayment":false,"paymentAuthorizationId":"8d9d7786-bdfe-463b-968b-37336652d339"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":3951,"automaticPayment":false,"paymentAuthorizationId":"36a7b87d-d622-4a94-a405-e1a155813a48"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":31771,"automaticPayment":false,"paymentAuthorizationId":"f79e9049-582d-4ccf-b057-f4e4920a9a81"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":5210,"automaticPayment":false,"paymentAuthorizationId":"da3bc014-6612-4d42-a9c0-ccede76ea50d"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":9702,"automaticPayment":false,"paymentAuthorizationId":"db51815c-eaa7-4e32-ab86-70373bb3a6cb"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":28310,"automaticPayment":false,"paymentAuthorizationId":"2fe00e2a-4426-45f9-9e8b-b6ca55d3be14"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":6578,"automaticPayment":false,"paymentAuthorizationId":"407ef9d0-1cfb-453c-a185-ea727d90d788"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":3501,"automaticPayment":false,"paymentAuthorizationId":"3acddfea-39b4-46bc-84b8-5bc968bf3dff"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":3581,"automaticPayment":false,"paymentAuthorizationId":"be3471cb-0344-48de-90e9-22a6c625ce55"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":2650,"automaticPayment":false,"paymentAuthorizationId":"83ccebe8-9a15-4c58-83f2-e1d1762e1c29"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":11410,"automaticPayment":false,"paymentAuthorizationId":"f10fb2f2-792d-4ed6-8073-515d98e0138f"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":2784,"automaticPayment":false,"paymentAuthorizationId":"a113a46d-d2bd-49b9-9dca-aac085213e1f"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":8846,"automaticPayment":false,"paymentAuthorizationId":"44fb9c3d-1e1e-4c94-826f-ee9add55e100"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":15717,"automaticPayment":false,"paymentAuthorizationId":"34bb84a8-856a-4aae-812f-de06536c0e30"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":11938,"automaticPayment":false,"paymentAuthorizationId":"9ac126e5-c27b-4b23-ad17-799a53dd70ed"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":4704,"automaticPayment":false,"paymentAuthorizationId":"492fe112-7d40-4e8a-a2a9-2a2cb31ed9c6"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":1845,"automaticPayment":false,"paymentAuthorizationId":"5b3a97a7-91a9-4836-b40d-1b3b193ced68"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":15811,"automaticPayment":false,"paymentAuthorizationId":"67720b51-2347-4186-91c5-3d23a2dcd036"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":11363,"automaticPayment":false,"paymentAuthorizationId":"9376a859-b4fb-4200-a106-658864a9d4f6"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":12475,"automaticPayment":false,"paymentAuthorizationId":"355b9a44-1b88-4bd6-b0b9-0aece0f7e7b5"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":2980,"automaticPayment":false,"paymentAuthorizationId":"cfe1752e-c7f2-4999-b026-14b6308a4e41"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":35945,"automaticPayment":false,"paymentAuthorizationId":"f7353f80-e016-4454-884b-82d26d67bf05"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":39996,"automaticPayment":false,"paymentAuthorizationId":"6549f804-3efb-4a7f-a521-eee38a74ce0a"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":1088,"automaticPayment":false,"paymentAuthorizationId":"cad9a6f6-ccd5-4a65-ae4c-cf43ab2e403d"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":16980,"automaticPayment":false,"paymentAuthorizationId":"03636e5a-85cc-4610-9c33-dfc20290668d"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":15194,"automaticPayment":false,"paymentAuthorizationId":"07532bfc-917b-4e22-87d3-356ea011f4d5"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":2489,"automaticPayment":false,"paymentAuthorizationId":"cee176d6-fe5e-4e39-8f83-a397a2854e3d"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":7095,"automaticPayment":false,"paymentAuthorizationId":"055783ab-6719-4c1d-9743-0d5fee0e268d"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":4954,"automaticPayment":false,"paymentAuthorizationId":"03500a3a-63ae-402b-9584-a2ff5b81be55"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":2634,"automaticPayment":false,"paymentAuthorizationId":"f4a505fb-5962-4f81-8773-41da01361934"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":11308,"automaticPayment":false,"paymentAuthorizationId":"6330d22f-a69e-4eaf-a6ec-6725d02183c2"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":14372,"automaticPayment":false,"paymentAuthorizationId":"26e7ec2a-22e9-4f56-bae1-f04626c6aa98"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":15696,"automaticPayment":false,"paymentAuthorizationId":"eecdbe36-ffc8-4813-b07a-45d63957373f"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":15832,"automaticPayment":false,"paymentAuthorizationId":"3f1c68b5-f465-40a4-8bfa-f64f16db5d51"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":2917,"automaticPayment":false,"paymentAuthorizationId":"e4924090-057e-483e-9b38-2e5540c35f32"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":415,"automaticPayment":false,"paymentAuthorizationId":"11bb0ee6-7330-4fe2-9a1e-afc3bedb8ff5"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":3467,"automaticPayment":false,"paymentAuthorizationId":"870753f8-e886-4827-a4ae-02dc0cdb1599"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":15895,"automaticPayment":false,"paymentAuthorizationId":"b7ff49ff-7447-41b8-aac4-4de0ba199b2c"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":8034,"automaticPayment":false,"paymentAuthorizationId":"e493aee7-87b7-4841-ae31-247b566f3da3"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":39930,"automaticPayment":false,"paymentAuthorizationId":"82acdafc-d339-48c9-9b37-1d06c8264ba4"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":11526,"automaticPayment":false,"paymentAuthorizationId":"addeb9ca-d850-4f9a-924e-51b80248ab0a"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":5118,"automaticPayment":false,"paymentAuthorizationId":"3bb15b42-9a7e-4225-8b15-dcffbda9ac7f"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":5525,"automaticPayment":false,"paymentAuthorizationId":"f2f4eb6b-4c17-412a-afd5-e5b9dce8430f"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":3951,"automaticPayment":false,"paymentAuthorizationId":"c83358c4-ed53-463b-9b4c-5ba020d1152f"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":31771,"automaticPayment":false,"paymentAuthorizationId":"d958f5cf-81d5-4c80-b83b-06e7db7f61e6"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":5210,"automaticPayment":false,"paymentAuthorizationId":"c858beb3-fbff-497a-b6fd-db8711ab99fc"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":9702,"automaticPayment":false,"paymentAuthorizationId":"0bf1a190-4b3f-4d1e-a373-9d189385211c"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":28310,"automaticPayment":false,"paymentAuthorizationId":"05e948ee-f78a-4378-95c6-9271c0b2c354"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":6578,"automaticPayment":false,"paymentAuthorizationId":"2b6b6486-ed4e-4b03-810a-4c3a5327a4cd"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":3501,"automaticPayment":false,"paymentAuthorizationId":"f7146789-8a49-4dbf-832a-1c3fd29024ff"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":3581,"automaticPayment":false,"paymentAuthorizationId":"8dadc77f-0dba-4565-8489-b1cca3832670"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":2650,"automaticPayment":false,"paymentAuthorizationId":"eb69f245-27b7-42e6-855e-0df76edf80d2"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":11410,"automaticPayment":false,"paymentAuthorizationId":"9e28f64d-cbac-47f9-848b-7b0346472579"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":2784,"automaticPayment":false,"paymentAuthorizationId":"d44a5b28-4a5e-4dce-8165-dbced962b267"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":8846,"automaticPayment":false,"paymentAuthorizationId":"5a48bb24-e2bb-42be-aa43-687ce2a66ebc"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":15717,"automaticPayment":false,"paymentAuthorizationId":"4eb13195-f351-44d0-b487-c2eb142ddcee"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":11938,"automaticPayment":false,"paymentAuthorizationId":"da0a17ae-a92e-4294-9a23-df95932205aa"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":4704,"automaticPayment":false,"paymentAuthorizationId":"e8fcd5d9-9045-4fb9-bb85-0c44dd53f779"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":1845,"automaticPayment":false,"paymentAuthorizationId":"3bb8a8b1-4693-46cb-a49b-08728f729a55"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":15811,"automaticPayment":false,"paymentAuthorizationId":"d3a65dc5-f61b-45f9-a0d7-b50eb8e09a99"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":11363,"automaticPayment":false,"paymentAuthorizationId":"b5bfb720-cfbd-4831-b489-5b6123659837"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":12475,"automaticPayment":false,"paymentAuthorizationId":"355e9a61-62d2-4b02-b719-97e5bb99b975"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":2980,"automaticPayment":false,"paymentAuthorizationId":"30b84a06-6009-46e9-bc91-7a76a901336c"}}
+carga03
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":35945,"automaticPayment":false,"paymentAuthorizationId":"0fa3647b-31ab-487b-a094-1176f4001e27"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":39996,"automaticPayment":false,"paymentAuthorizationId":"cc04a0e5-17a6-43b5-a963-b326d857c2df"}}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":35945,"automaticPayment":false,"paymentAuthorizationId":"7960388e-d030-48ce-b482-1343a51b4a22"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":39996,"automaticPayment":false,"paymentAuthorizationId":"8bba6f09-0e43-4070-9bad-e6fb75fa13fd"}}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"002","message":"No se encontro una billetera asociada"}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":35945,"automaticPayment":false,"paymentAuthorizationId":"e8ee6d00-5abe-4b98-bc16-d2c0af21b8e8"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":35945,"automaticPayment":false,"paymentAuthorizationId":"66ac805a-034e-460e-8009-5fbb27eef3d1"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":39996,"automaticPayment":false,"paymentAuthorizationId":"d63fb75f-5a6a-40c1-a6f2-3e85f6a52b1f"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":4954,"automaticPayment":false,"paymentAuthorizationId":"2cb2c727-6415-44c3-9fa0-85b8ed8a65dc"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":35945,"automaticPayment":false,"paymentAuthorizationId":"7a63d42b-beea-4807-8827-d0f0e666d202"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":39996,"automaticPayment":false,"paymentAuthorizationId":"78201b00-94d5-4a16-a46c-ee458bd74af5"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":4954,"automaticPayment":false,"paymentAuthorizationId":"961b4250-733f-41e8-a807-0f8633a82dfa"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":35945,"automaticPayment":false,"paymentAuthorizationId":"8df6696a-b0a3-4195-87b3-10d5383fa645"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":39996,"automaticPayment":false,"paymentAuthorizationId":"589c202d-8286-4e43-aab5-1e043aca9f8c"}}
+estres01
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":35945,"automaticPayment":false,"paymentAuthorizationId":"ec1cb4da-0659-415e-a318-7a34fe5cfb45"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":35945,"automaticPayment":false,"paymentAuthorizationId":"3ef0c068-cbe2-4525-b683-a9505725f1f4"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":39996,"automaticPayment":false,"paymentAuthorizationId":"32dc9357-dd96-45b2-959b-8fc7213dc3f6"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":35945,"automaticPayment":false,"paymentAuthorizationId":"e2357a3c-852f-43cb-9a77-3c05f01ddd12"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":39996,"automaticPayment":false,"paymentAuthorizationId":"782c7c52-60c0-4e17-9161-35e83c52abcf"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":4954,"automaticPayment":false,"paymentAuthorizationId":"4d8b7ac3-e8c2-433f-a121-82e9524a5447"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":35945,"automaticPayment":false,"paymentAuthorizationId":"c0ec5d93-463f-4336-a162-0cb25e98c43c"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":39996,"automaticPayment":false,"paymentAuthorizationId":"d91ad562-f728-4c34-9bd0-b092a48ffa48"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":4954,"automaticPayment":false,"paymentAuthorizationId":"e3376586-8d8a-4b17-8d60-31e89f88c1bd"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":35945,"automaticPayment":false,"paymentAuthorizationId":"16e6017f-9521-4044-9b48-37ba14b67360"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":39996,"automaticPayment":false,"paymentAuthorizationId":"278a06a3-a298-492a-ad27-3ae349821c58"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":4954,"automaticPayment":false,"paymentAuthorizationId":"8a65570f-e89b-4749-9530-a710e5d28d8f"}}
+estres02
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":35945,"automaticPayment":false,"paymentAuthorizationId":"a7cb9008-875e-4fa0-a7b7-4fe4b4c3ed30"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":39996,"automaticPayment":false,"paymentAuthorizationId":"6e5e5e60-5fe1-4045-b448-ef31b0c3c56d"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":35945,"automaticPayment":false,"paymentAuthorizationId":"0db49469-1ad1-4678-8b75-d0d02819bf0d"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":35945,"automaticPayment":false,"paymentAuthorizationId":"8ccc675c-66bb-4e35-b782-5cfad5f41e91"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":39996,"automaticPayment":false,"paymentAuthorizationId":"974f185d-bacf-4886-a25f-d5176b538a49"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":4954,"automaticPayment":false,"paymentAuthorizationId":"24dee860-edc8-48ef-b763-eec0f1fdbb59"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":35945,"automaticPayment":false,"paymentAuthorizationId":"5b07b9a4-a64a-4d3e-bee3-7588843417b2"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":39996,"automaticPayment":false,"paymentAuthorizationId":"0ee8db0a-8494-42bc-ab05-73ae7b909763"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":4954,"automaticPayment":false,"paymentAuthorizationId":"99868901-b4b7-4caa-8480-c610e9cd50b5"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":35945,"automaticPayment":false,"paymentAuthorizationId":"b5234c77-55f9-4ce3-ae2a-6e9d3b2cd636"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":39996,"automaticPayment":false,"paymentAuthorizationId":"d30fdf3d-154c-4d52-b232-21e80c8b86a8"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":4954,"automaticPayment":false,"paymentAuthorizationId":"d525e031-df45-4fe5-bce8-fd351d415d0a"}}
+ Response: {"timestamp":"2025-01-15T14:06:09.638+00:00","path":"/payment-authorizer/api/v1/payment-authorization","status":500,"error":"Internal Server Error","requestId":"ffbd1a9e-52"}
+ Response: {"timestamp":"2025-01-15T14:06:11.227+00:00","path":"/payment-authorizer/api/v1/payment-authorization","status":500,"error":"Internal Server Error","requestId":"8f67505e-39"}
+estres03
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":39996,"automaticPayment":false,"paymentAuthorizationId":"29cbac3c-52b1-42ec-a940-12bba8bb5698"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":39996,"automaticPayment":false,"paymentAuthorizationId":"dff49e01-458a-4b31-8f53-fc17b90c45f9"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":39996,"automaticPayment":false,"paymentAuthorizationId":"406948b5-cde5-44e8-bc1d-91313772da74"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":39996,"automaticPayment":false,"paymentAuthorizationId":"b4df97bf-083b-4e80-9176-2b8ee1a7612d"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":39996,"automaticPayment":false,"paymentAuthorizationId":"95516618-0b9c-42b7-be9a-61c19e9dda5c"}}
+carga 05
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":39996,"automaticPayment":false,"paymentAuthorizationId":"aac180fa-b276-49bd-a8e6-0ed1f634fbf2"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":39959,"automaticPayment":false,"paymentAuthorizationId":"e930d231-60bb-4031-9bdf-625331d52117"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":4800,"automaticPayment":false,"paymentAuthorizationId":"5439e4cf-89e6-4351-92a7-4703c1fb0ad1"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":16275,"automaticPayment":false,"paymentAuthorizationId":"ff968d96-ea9c-4cb3-a369-244f837f432d"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":9451,"automaticPayment":false,"paymentAuthorizationId":"5219b07c-b08f-416f-9b7b-ba10d305610e"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":12626,"automaticPayment":false,"paymentAuthorizationId":"97f8d2b0-ef07-4e92-b6a2-0d8bcd9403f9"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":13484,"automaticPayment":false,"paymentAuthorizationId":"cb99df32-850f-44ac-8787-b4686a9a6081"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":15396,"automaticPayment":false,"paymentAuthorizationId":"ba087ddf-2dfb-46db-9e8f-27204aee68c5"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":15928,"automaticPayment":false,"paymentAuthorizationId":"810028c6-e86c-4e9d-9372-5c834fe15dce"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":14053,"automaticPayment":false,"paymentAuthorizationId":"81a2414b-00a5-481b-9f9c-1acbef0b9d3c"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":12395,"automaticPayment":false,"paymentAuthorizationId":"21d30816-e718-41d9-a7e1-8e5cf64ca586"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":3128,"automaticPayment":false,"paymentAuthorizationId":"cabb24c2-2e16-4071-b3e6-62c04e6581fc"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":13467,"automaticPayment":false,"paymentAuthorizationId":"f0e86e57-56cd-40b4-8ae1-e6f4fec2e954"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":11307,"automaticPayment":false,"paymentAuthorizationId":"7c3e38d5-6ff7-4a7d-9edf-98485657cf27"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":3875,"automaticPayment":false,"paymentAuthorizationId":"2a72a77f-2661-46b0-af88-ec6fae3fed5b"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":15521,"automaticPayment":false,"paymentAuthorizationId":"d545553b-87c6-4577-8e0d-3160efd37842"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":12204,"automaticPayment":false,"paymentAuthorizationId":"8cbe6a60-3046-4251-aec2-cae730d055e4"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":7450,"automaticPayment":false,"paymentAuthorizationId":"97972a5d-019c-4d98-b0c3-0666f6409268"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":10510,"automaticPayment":false,"paymentAuthorizationId":"fd1dd588-b544-43d7-9f86-ff721a41dc09"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":24264,"automaticPayment":false,"paymentAuthorizationId":"2db146bf-85f5-44a9-a567-9bb1504200f9"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":13649,"automaticPayment":false,"paymentAuthorizationId":"b15c640e-2ccc-480d-b601-49c275bbf83f"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":3400,"automaticPayment":false,"paymentAuthorizationId":"e38aa765-ac40-49f1-b651-b2e5ea96013e"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":12373,"automaticPayment":false,"paymentAuthorizationId":"1e495adb-ee32-4b25-b89f-05c9c2792ccf"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":21532,"automaticPayment":false,"paymentAuthorizationId":"fc0db271-ceca-4370-8e82-0d64a57cdffd"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":4268,"automaticPayment":false,"paymentAuthorizationId":"1d499075-fa46-4c96-93ce-3d70f93865da"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":14451,"automaticPayment":false,"paymentAuthorizationId":"ac1c099c-df01-4ba3-be2c-46a769424c27"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":12663,"automaticPayment":false,"paymentAuthorizationId":"09046d62-e51d-4fbd-8cd1-7382d3b64af8"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":12952,"automaticPayment":false,"paymentAuthorizationId":"24f5d887-5bf8-4335-b0fc-aa51d8cc21ee"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":2703,"automaticPayment":false,"paymentAuthorizationId":"a962d6e2-fb5f-4996-8211-8a1fd54dca66"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":9087,"automaticPayment":false,"paymentAuthorizationId":"161e71cb-e0c2-4f36-9558-a0a0d62234c3"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":10846,"automaticPayment":false,"paymentAuthorizationId":"4f138af7-a9e6-4c3c-9fb3-6c860fca2b27"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":4200,"automaticPayment":false,"paymentAuthorizationId":"940eadfd-944d-45c6-8850-0879636d5323"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":10619,"automaticPayment":false,"paymentAuthorizationId":"40d71037-82aa-4bd5-8f10-c259ca9ae9bb"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":10826,"automaticPayment":false,"paymentAuthorizationId":"a8f0ef2c-bee9-4b70-ac88-4686bed6e0d4"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":2808,"automaticPayment":false,"paymentAuthorizationId":"8daf6a93-c6e4-499e-a1db-d61dad8e0200"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":15382,"automaticPayment":false,"paymentAuthorizationId":"2edfb7ec-89f8-4a0f-b7c0-f6d3cfd3206e"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":12430,"automaticPayment":false,"paymentAuthorizationId":"5a8113eb-491c-44c1-9370-686eda6e97c9"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":12655,"automaticPayment":false,"paymentAuthorizationId":"1709833c-a552-4439-9138-64476df1e2e9"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":13109,"automaticPayment":false,"paymentAuthorizationId":"a29bcbb0-c72d-494a-801a-18b2956a53b3"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":7211,"automaticPayment":false,"paymentAuthorizationId":"9fa25191-8f4e-4444-a1ff-bb0a5ce7eaae"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":13850,"automaticPayment":false,"paymentAuthorizationId":"219b5216-9eb8-4c48-be2a-bf044db8262f"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":39963,"automaticPayment":false,"paymentAuthorizationId":"5659f911-eb27-4a75-9a5d-e9db09807947"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":13800,"automaticPayment":false,"paymentAuthorizationId":"598f1b96-f491-481d-ba41-de63a060d5b3"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":14135,"automaticPayment":false,"paymentAuthorizationId":"18f355b7-d4d7-433e-a99e-ddf5ba7e24e2"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":12272,"automaticPayment":false,"paymentAuthorizationId":"8b9b3287-86d6-4225-8e92-4f1829d96d1c"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":14943,"automaticPayment":false,"paymentAuthorizationId":"f59c2180-33ab-4e46-aee7-548c0785a0cb"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":39959,"automaticPayment":false,"paymentAuthorizationId":"60f7ff89-8f74-487c-85c0-f963dcd08143"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":4800,"automaticPayment":false,"paymentAuthorizationId":"f4098508-8641-499c-9a9c-e8cad63cc27c"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":16275,"automaticPayment":false,"paymentAuthorizationId":"4e49c31c-0fd9-493d-88e0-c9e90257a245"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":9451,"automaticPayment":false,"paymentAuthorizationId":"116b472b-e9ae-4503-a1eb-f3be0b8d19f9"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":12626,"automaticPayment":false,"paymentAuthorizationId":"6b4e8806-4eff-42ea-9a93-d5581db4e871"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":13484,"automaticPayment":false,"paymentAuthorizationId":"475cc9eb-fe6e-435c-937e-304bb49a9a16"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":15396,"automaticPayment":false,"paymentAuthorizationId":"92689c2c-9375-4e60-a2be-66704ecd4ffb"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":15928,"automaticPayment":false,"paymentAuthorizationId":"3f7b80ff-5033-4124-aeaa-2fe204b14f11"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":14053,"automaticPayment":false,"paymentAuthorizationId":"8ec45bfc-23ab-4ab7-9ded-cd991b62b68d"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":12395,"automaticPayment":false,"paymentAuthorizationId":"64754882-695b-4f6f-8bd0-144126169df0"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":3128,"automaticPayment":false,"paymentAuthorizationId":"026450cd-ad5a-43ca-936b-6e4cb83b52cd"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":13467,"automaticPayment":false,"paymentAuthorizationId":"2b12158b-a4da-47fc-a6c5-fbad4fd78ecf"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":11307,"automaticPayment":false,"paymentAuthorizationId":"47b7fdd7-7875-4b74-9491-9e1162512825"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":3875,"automaticPayment":false,"paymentAuthorizationId":"c49d3454-7bc9-4b74-94f9-c4d3c66b1fdf"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":15521,"automaticPayment":false,"paymentAuthorizationId":"93028c54-b7fa-457c-b3e4-451c9db366ce"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":12204,"automaticPayment":false,"paymentAuthorizationId":"de394779-9109-4706-a049-f1d1b7822cbf"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":7450,"automaticPayment":false,"paymentAuthorizationId":"72427cee-1a67-40f9-8210-d088164cd980"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":4800,"automaticPayment":false,"paymentAuthorizationId":"91267fef-b83e-4603-aeae-45ce4b9531f7"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":16275,"automaticPayment":false,"paymentAuthorizationId":"a9223cc3-c2d7-424b-9fd0-339e97710695"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":9451,"automaticPayment":false,"paymentAuthorizationId":"2cfe7d5d-bf43-40c5-812f-87f85bf49821"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":12626,"automaticPayment":false,"paymentAuthorizationId":"befa1718-b3af-4490-bc21-57a8b8a3229d"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":13484,"automaticPayment":false,"paymentAuthorizationId":"eaf249f0-ed0b-475d-b2b4-de5ebd422869"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":15396,"automaticPayment":false,"paymentAuthorizationId":"e9495b99-b40d-4934-88d8-8c441d9bc2a6"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":15928,"automaticPayment":false,"paymentAuthorizationId":"8cb009c8-6a9c-45a8-b5f6-fcfdae3ceb19"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":14053,"automaticPayment":false,"paymentAuthorizationId":"9906313c-ceb6-41a2-8862-25e9cb69c38d"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":12395,"automaticPayment":false,"paymentAuthorizationId":"44d2a20b-9c5d-40df-8577-5abbd0cf24aa"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":3128,"automaticPayment":false,"paymentAuthorizationId":"43ba6f0d-44cf-43ad-93d3-f99876c6d64b"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":13467,"automaticPayment":false,"paymentAuthorizationId":"225a5357-2212-4a6d-b20a-f146b9f7b79d"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":11946,"automaticPayment":false,"paymentAuthorizationId":"2e228edc-ffd4-4d7e-9ac8-31098e9cdfeb"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":6949,"automaticPayment":false,"paymentAuthorizationId":"1fca5edf-8efa-4f7d-b0d4-69c6c7c9691c"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":11307,"automaticPayment":false,"paymentAuthorizationId":"ae1124a4-06dd-4f47-95f5-a5219ece002e"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":3875,"automaticPayment":false,"paymentAuthorizationId":"37de316b-e8d9-4a8c-9fe7-8b8fd1085c80"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":15521,"automaticPayment":false,"paymentAuthorizationId":"2de78cd7-a674-47d5-91aa-5a685e00e7b1"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":12204,"automaticPayment":false,"paymentAuthorizationId":"e2b373b6-10a7-4fda-8352-beed48f609e0"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":7450,"automaticPayment":false,"paymentAuthorizationId":"e8fc9815-810b-472b-a6c8-73f89a9ee374"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":16436,"automaticPayment":false,"paymentAuthorizationId":"0b441e8d-65f2-4826-8e42-e7519923fab0"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":10510,"automaticPayment":false,"paymentAuthorizationId":"a1bce689-15d0-4505-b7c9-a6e038c43603"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":24264,"automaticPayment":false,"paymentAuthorizationId":"f43db1ea-f71e-487e-be67-f1c19534c56a"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":13649,"automaticPayment":false,"paymentAuthorizationId":"9ad31a8b-8b9a-4db8-9afb-45dd38a3defb"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":3400,"automaticPayment":false,"paymentAuthorizationId":"4d66801a-1c73-4f29-9d84-29349d161f6b"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":12373,"automaticPayment":false,"paymentAuthorizationId":"53764c19-7c3b-4af6-b93b-82da0e359395"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":21532,"automaticPayment":false,"paymentAuthorizationId":"4b34c07a-d677-4d2d-a706-fa4f49cfe302"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":4268,"automaticPayment":false,"paymentAuthorizationId":"a7b14fc2-b2e9-455d-911f-30e803a29bac"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":14451,"automaticPayment":false,"paymentAuthorizationId":"280d1c01-be6a-4c9a-9d87-228d143d659b"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":12663,"automaticPayment":false,"paymentAuthorizationId":"1f04c908-c80d-4a49-934f-11fc22963df7"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":12952,"automaticPayment":false,"paymentAuthorizationId":"9177618d-6415-4e16-9704-31f9d8e181b9"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":2703,"automaticPayment":false,"paymentAuthorizationId":"16d62ca5-ee09-485a-ba5b-237feba4c87c"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":9087,"automaticPayment":false,"paymentAuthorizationId":"82d7b1ee-e91d-4efd-9b41-1f58bd488253"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":10846,"automaticPayment":false,"paymentAuthorizationId":"79311715-f946-4bd6-b253-4e844fcf3680"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":4200,"automaticPayment":false,"paymentAuthorizationId":"f3907aca-f978-4eed-9e05-816108d5cb6f"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":10619,"automaticPayment":false,"paymentAuthorizationId":"1b404ff2-e404-45e4-b691-96a3bd360b4d"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":10826,"automaticPayment":false,"paymentAuthorizationId":"84f94b98-45fa-4d40-b198-d7476d58973e"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":2808,"automaticPayment":false,"paymentAuthorizationId":"90d04310-f7a4-47f9-a445-956f7427daa7"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":15382,"automaticPayment":false,"paymentAuthorizationId":"3c42971b-1648-48d9-95d0-4ea364725da3"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":12430,"automaticPayment":false,"paymentAuthorizationId":"5ee968ce-f541-44b3-8995-a17dc16b1144"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":12655,"automaticPayment":false,"paymentAuthorizationId":"292291f3-4ab1-4044-b488-2487aec35aa7"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":13109,"automaticPayment":false,"paymentAuthorizationId":"39457313-2bc4-44c6-bd6a-7a5d97330a0e"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":7211,"automaticPayment":false,"paymentAuthorizationId":"18da2733-563f-4c65-a853-b6459a144a43"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":13850,"automaticPayment":false,"paymentAuthorizationId":"b19f9a3a-8976-4316-a5bd-79a6936ee56f"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":39963,"automaticPayment":false,"paymentAuthorizationId":"df05b051-46a5-4e83-92f3-72e5a30ffe09"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":13800,"automaticPayment":false,"paymentAuthorizationId":"17e55ec5-ed60-4274-8295-606e7d877905"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":21279,"automaticPayment":false,"paymentAuthorizationId":"7ca8ba14-f02d-411e-80e0-199ba1ed91d2"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":14135,"automaticPayment":false,"paymentAuthorizationId":"cfdb0027-86b7-4775-909c-f893ff09bd7d"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":12272,"automaticPayment":false,"paymentAuthorizationId":"4d30eed6-78d9-4235-bb07-c113bcaf6b01"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":14943,"automaticPayment":false,"paymentAuthorizationId":"2bf23c07-4938-471a-a868-18d355f4a817"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":4800,"automaticPayment":false,"paymentAuthorizationId":"9a7ac11f-07d2-43a2-90ef-d955bac9c23d"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":16275,"automaticPayment":false,"paymentAuthorizationId":"8adbd0c8-f353-45fa-af04-ed5e6b0056e3"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":9451,"automaticPayment":false,"paymentAuthorizationId":"ef59688a-33c0-42ab-b143-ed9eac5f2ed5"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":12626,"automaticPayment":false,"paymentAuthorizationId":"eb1e5e77-c51a-4a2d-a034-ca72433d4894"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":13484,"automaticPayment":false,"paymentAuthorizationId":"bee7f32e-36f7-430c-a773-1ceae5119a77"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":15396,"automaticPayment":false,"paymentAuthorizationId":"c06a9566-fb77-43eb-9290-6308f39f8edb"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":15928,"automaticPayment":false,"paymentAuthorizationId":"dde79716-7f97-4b42-93c1-b4dbe1e75798"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":14053,"automaticPayment":false,"paymentAuthorizationId":"9a7e3997-007a-4e84-8715-bdc79bf4de11"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":12395,"automaticPayment":false,"paymentAuthorizationId":"049185d9-0283-4ed3-8b77-91b3ded10a66"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":3128,"automaticPayment":false,"paymentAuthorizationId":"7393f8ce-47c6-4f82-87e9-e413ba581109"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":13467,"automaticPayment":false,"paymentAuthorizationId":"cecd2798-78c2-4ed6-a52a-68bed8f76fef"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":11946,"automaticPayment":false,"paymentAuthorizationId":"f149e09c-9382-4057-9e23-aa4e65a1438e"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":6949,"automaticPayment":false,"paymentAuthorizationId":"2a5c15c0-66a9-4b20-a891-38d9f14f7ff8"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":11307,"automaticPayment":false,"paymentAuthorizationId":"c204f016-dd9c-4f09-b6b8-6ce902ff7cfd"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":3875,"automaticPayment":false,"paymentAuthorizationId":"70e59a2b-3bb1-431e-a023-3d33ee710b9a"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":15521,"automaticPayment":false,"paymentAuthorizationId":"cd95452d-b2a4-4927-aa16-a0ec5c4db15e"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":12204,"automaticPayment":false,"paymentAuthorizationId":"b936e76e-4a98-4874-87fd-fc26e1182ace"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":7450,"automaticPayment":false,"paymentAuthorizationId":"f72a95bb-fcae-4fdd-9497-4c645a202e53"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":16436,"automaticPayment":false,"paymentAuthorizationId":"3a99cea7-a814-46e4-a58d-5a3246dfeed0"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":10510,"automaticPayment":false,"paymentAuthorizationId":"42a698b7-7218-4d26-a7cd-f98c4d05f90d"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":24264,"automaticPayment":false,"paymentAuthorizationId":"1918577b-f160-4590-b03c-eaf46b2075db"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":13649,"automaticPayment":false,"paymentAuthorizationId":"e7770529-136f-40e8-bd32-37e0bf688be2"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":3400,"automaticPayment":false,"paymentAuthorizationId":"0d567470-875e-40fb-a409-30fbd9c2932b"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":12373,"automaticPayment":false,"paymentAuthorizationId":"f0cd7481-889c-45d9-9395-b81f7b88cb06"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":21532,"automaticPayment":false,"paymentAuthorizationId":"e7ee3617-6e77-477d-9788-306d7292aa45"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":4268,"automaticPayment":false,"paymentAuthorizationId":"942caa47-583c-428e-b9af-1214ce101170"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":14451,"automaticPayment":false,"paymentAuthorizationId":"fd2597f2-bd80-49c2-a922-9f5d4806ec55"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":12663,"automaticPayment":false,"paymentAuthorizationId":"e3cca491-4305-4233-a2ea-b39083924e3a"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":12952,"automaticPayment":false,"paymentAuthorizationId":"b72815f7-c769-43e8-a8d5-d397181d4db3"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":2703,"automaticPayment":false,"paymentAuthorizationId":"c4a4e408-ab65-4072-b225-445bbce5bf11"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":9087,"automaticPayment":false,"paymentAuthorizationId":"ce4bee92-ccb1-41d1-b364-fb188056e308"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":10846,"automaticPayment":false,"paymentAuthorizationId":"41ce6b77-a308-4bfa-95a3-5dd5de67e85d"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":4200,"automaticPayment":false,"paymentAuthorizationId":"337a1510-f1f1-4543-9bab-687f35c794da"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":10619,"automaticPayment":false,"paymentAuthorizationId":"dc05d63e-50c9-47ea-bc0a-0d6a9aef7127"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":10826,"automaticPayment":false,"paymentAuthorizationId":"12d3f87f-2698-4b76-a51c-0ece8d738671"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":2808,"automaticPayment":false,"paymentAuthorizationId":"0d0c7b7a-fdc0-4870-9132-b26768a37ff3"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":15382,"automaticPayment":false,"paymentAuthorizationId":"862b9346-c484-444a-bbd0-66a512938a6a"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":12430,"automaticPayment":false,"paymentAuthorizationId":"94ee4623-1cde-45d2-a490-b84747627a0d"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":12655,"automaticPayment":false,"paymentAuthorizationId":"7560b135-2cc6-4c22-b752-099d82213937"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":13109,"automaticPayment":false,"paymentAuthorizationId":"2aa0a327-ddee-403c-8d19-5bdc74bb131f"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":7211,"automaticPayment":false,"paymentAuthorizationId":"ce57d198-2b0a-431d-afbf-cc78b2b828b4"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":13850,"automaticPayment":false,"paymentAuthorizationId":"cdb92f80-621d-4bd8-bd7a-a3866734efaa"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":39963,"automaticPayment":false,"paymentAuthorizationId":"d7e6f1f6-b98c-4671-8c93-6b370fa9713f"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":13800,"automaticPayment":false,"paymentAuthorizationId":"50f93126-9743-4dde-ae10-b99bcf6e40d5"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":21279,"automaticPayment":false,"paymentAuthorizationId":"28d9c30f-123d-4529-9b06-9b10db900901"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":14135,"automaticPayment":false,"paymentAuthorizationId":"984fd131-3da1-4c34-8329-a3e3dfc74ed5"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":12272,"automaticPayment":false,"paymentAuthorizationId":"2f268fb0-00d2-4e5f-9bb1-80d4c41d875e"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":14943,"automaticPayment":false,"paymentAuthorizationId":"38739e0a-d1d8-4719-84a1-c3c14d877d81"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":4800,"automaticPayment":false,"paymentAuthorizationId":"ccaa4a95-3f8f-4346-a89a-994acd78fba0"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":16275,"automaticPayment":false,"paymentAuthorizationId":"62ba1199-34c5-4afb-b9a9-0394444411f1"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":9451,"automaticPayment":false,"paymentAuthorizationId":"3a592be4-0a92-445f-9270-214839dc72cf"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":12626,"automaticPayment":false,"paymentAuthorizationId":"5b82248e-744f-4d51-9a89-8658e6411d0c"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":13484,"automaticPayment":false,"paymentAuthorizationId":"1300aa3d-2e27-4bce-9f80-b41026575b7e"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":15396,"automaticPayment":false,"paymentAuthorizationId":"c83b82d4-02eb-428e-ab6a-4fe6253462e3"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":15928,"automaticPayment":false,"paymentAuthorizationId":"7efd49ad-c2eb-47f9-b6a7-159fc84db017"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":14053,"automaticPayment":false,"paymentAuthorizationId":"63a6bf98-3551-4cc3-9d18-5a276b6c1dd8"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":12395,"automaticPayment":false,"paymentAuthorizationId":"de94007e-c4f3-4214-bdac-183d6b741dad"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":3128,"automaticPayment":false,"paymentAuthorizationId":"aca39a83-8a86-46cc-b3db-7d96e58cd385"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":13467,"automaticPayment":false,"paymentAuthorizationId":"e3af4e17-a4b7-43bd-bf8b-7e3bfa474df6"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":11946,"automaticPayment":false,"paymentAuthorizationId":"59db45dd-cc45-4b36-aa0d-5bfcdff932bd"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":6949,"automaticPayment":false,"paymentAuthorizationId":"f214b359-f94a-4113-88a7-8351bc69661a"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":11307,"automaticPayment":false,"paymentAuthorizationId":"37deb9b9-3bf3-4d50-be54-56b9b3143e10"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":3875,"automaticPayment":false,"paymentAuthorizationId":"519cf5f9-7d4f-4a97-ad70-eaadb5ea5efe"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":15521,"automaticPayment":false,"paymentAuthorizationId":"c68f9025-bfab-4cea-a3ea-c9ac6e083ec6"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":12204,"automaticPayment":false,"paymentAuthorizationId":"2907d453-a4c1-4621-90d7-0d334a3df523"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":7450,"automaticPayment":false,"paymentAuthorizationId":"280bb493-48c4-4ee4-862d-25315aadccce"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":16436,"automaticPayment":false,"paymentAuthorizationId":"130d50ef-5efa-4a55-8185-98026c9999f8"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":10510,"automaticPayment":false,"paymentAuthorizationId":"c18e34e7-667b-43e7-a910-0aacf558302b"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":24264,"automaticPayment":false,"paymentAuthorizationId":"2b1b4768-4993-4576-b838-b2c6041c0b7e"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":13649,"automaticPayment":false,"paymentAuthorizationId":"a5a7e253-5e71-4e72-8a10-ca76994eb2c1"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":3400,"automaticPayment":false,"paymentAuthorizationId":"64174c64-7e60-4aad-8828-7ce94007810b"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":12373,"automaticPayment":false,"paymentAuthorizationId":"bec8986e-9079-4dd2-9721-6d247d52cd1e"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":21532,"automaticPayment":false,"paymentAuthorizationId":"c217f4de-17a9-4007-963a-a01f315ae269"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":4268,"automaticPayment":false,"paymentAuthorizationId":"4beea2a9-1306-41d3-b2b9-928ab5765031"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":4800,"automaticPayment":false,"paymentAuthorizationId":"bc59ec99-e3aa-45b9-a8b3-2508a249a18c"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":16275,"automaticPayment":false,"paymentAuthorizationId":"57a6b4c5-2203-49c0-8331-0005a8839ac2"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":9451,"automaticPayment":false,"paymentAuthorizationId":"52abb9c4-e57d-43fa-bbb0-eeb239092ecf"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":12626,"automaticPayment":false,"paymentAuthorizationId":"23c6578c-4700-47ad-a872-036647b0dcf4"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":13484,"automaticPayment":false,"paymentAuthorizationId":"1fcf754a-7123-4197-a73e-e6d7a997754b"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":15396,"automaticPayment":false,"paymentAuthorizationId":"33736a82-0770-432d-bf9b-5036dcf666c8"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":15928,"automaticPayment":false,"paymentAuthorizationId":"06c2fd90-06fb-4961-9b50-793195b0383c"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":14053,"automaticPayment":false,"paymentAuthorizationId":"302d7db0-8266-4e56-a974-1bbf9846627e"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":15632,"automaticPayment":false,"paymentAuthorizationId":"28b2ae1e-f357-40d9-b7c8-b07e4b0933b8"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":12395,"automaticPayment":false,"paymentAuthorizationId":"b653615f-0a95-4be6-8dd7-64f5a24a9bca"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":3128,"automaticPayment":false,"paymentAuthorizationId":"367dafbd-79a7-48b7-a315-da60cca02433"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":13467,"automaticPayment":false,"paymentAuthorizationId":"4b1fcc1d-4983-438b-95b8-833b140d7590"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":11946,"automaticPayment":false,"paymentAuthorizationId":"12aab602-e4c3-4062-b04f-e647c6a7478c"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":6949,"automaticPayment":false,"paymentAuthorizationId":"67dae811-e38b-4925-b4db-9ed476dcaa96"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":11307,"automaticPayment":false,"paymentAuthorizationId":"29cbe557-255a-4c42-bf2a-18cbe84da744"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":3875,"automaticPayment":false,"paymentAuthorizationId":"229f86b6-5e6b-463f-8a55-8142b11ca6e3"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":15521,"automaticPayment":false,"paymentAuthorizationId":"8ffb7a05-b63d-4156-982b-e4fa54e056bc"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":3222,"automaticPayment":false,"paymentAuthorizationId":"7607b69b-a346-47eb-8dba-c465f9939c5f"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":12204,"automaticPayment":false,"paymentAuthorizationId":"38622f58-4c06-4ed7-b0dc-3f18fcc11782"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":7450,"automaticPayment":false,"paymentAuthorizationId":"9a42deee-08d6-4611-b31b-61eeda9bb251"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":16436,"automaticPayment":false,"paymentAuthorizationId":"25da5653-5009-4f22-b0c1-30e6c0abc886"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":10510,"automaticPayment":false,"paymentAuthorizationId":"4cc0c21b-01e5-41bf-b0b2-0c1150add057"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":24264,"automaticPayment":false,"paymentAuthorizationId":"2525d88e-6c33-4327-bcac-47ac12ed2edf"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":13649,"automaticPayment":false,"paymentAuthorizationId":"c45c75f7-9aef-42fc-8324-1da911bb2625"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":3400,"automaticPayment":false,"paymentAuthorizationId":"acf6bc67-56b7-4de5-9cb8-0c3a9d49a3d0"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":12373,"automaticPayment":false,"paymentAuthorizationId":"d81bea5e-9a56-4b48-bb75-bd0d98ee5735"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":14852,"automaticPayment":false,"paymentAuthorizationId":"5ae3a4cb-f290-4d56-a5f7-5b6a47314cde"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":21532,"automaticPayment":false,"paymentAuthorizationId":"dcbb61ad-206a-4b97-ba1d-67636171da0d"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":4268,"automaticPayment":false,"paymentAuthorizationId":"3316e55b-f648-4adc-8f1b-39bf388bb179"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":15103,"automaticPayment":false,"paymentAuthorizationId":"9a3a81f8-f58d-4b7a-ae48-b14a9b6b2c2a"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":14451,"automaticPayment":false,"paymentAuthorizationId":"f1f5da1b-e6ac-469a-a454-4e7805d49da0"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":12663,"automaticPayment":false,"paymentAuthorizationId":"4495ed2e-5f0e-4245-9fed-620ec849a84c"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":13717,"automaticPayment":false,"paymentAuthorizationId":"1582f11d-708d-44f2-a348-1c92e77c4c0a"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":12952,"automaticPayment":false,"paymentAuthorizationId":"d40a5467-4589-4b55-9456-c845eff470b5"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":2703,"automaticPayment":false,"paymentAuthorizationId":"de13cfa0-9124-4f1e-9419-209926c42258"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":9087,"automaticPayment":false,"paymentAuthorizationId":"979f4845-bc54-45d4-9126-27f0af4cdfc1"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":11475,"automaticPayment":false,"paymentAuthorizationId":"08bd9c51-f0ef-4cc4-be3d-4f31b8581090"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":2231,"automaticPayment":false,"paymentAuthorizationId":"efa6de91-032f-4dc2-9ea5-f43e42da615b"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":13662,"automaticPayment":false,"paymentAuthorizationId":"d85c12b3-e573-4511-ac4d-1cbe7a685ef7"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":10846,"automaticPayment":false,"paymentAuthorizationId":"d71de1be-1c0d-48d1-9dca-a3b5c052b128"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":8797,"automaticPayment":false,"paymentAuthorizationId":"7b88635b-4316-4021-8681-c31c55c7554c"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":5813,"automaticPayment":false,"paymentAuthorizationId":"25aa3e9d-817f-4946-9d94-ec9f2adb5053"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":4200,"automaticPayment":false,"paymentAuthorizationId":"3fcefcc4-7790-46cf-babf-5474a317c309"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":10619,"automaticPayment":false,"paymentAuthorizationId":"d3bf64b2-9b1f-4640-aa9d-bca780ea24dd"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":10826,"automaticPayment":false,"paymentAuthorizationId":"93c30ce7-766e-4d1d-bb97-abf852aa9974"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":2808,"automaticPayment":false,"paymentAuthorizationId":"e75fe58d-9977-4fc2-9851-7dd02b378909"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":15382,"automaticPayment":false,"paymentAuthorizationId":"b6e278d9-00b8-4a8d-a41f-386443b54514"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":3082,"automaticPayment":false,"paymentAuthorizationId":"7a7997b4-df73-45cf-98d6-2eca2715a0a6"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":12430,"automaticPayment":false,"paymentAuthorizationId":"f182c379-7587-47b3-b33d-cb00e2d1c92e"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":12655,"automaticPayment":false,"paymentAuthorizationId":"032760c0-2296-48a8-b22d-150ef6c5cf2b"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":10442,"automaticPayment":false,"paymentAuthorizationId":"86065b0e-272e-4744-a275-55cd682cb639"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":13109,"automaticPayment":false,"paymentAuthorizationId":"ebca1629-98cd-4835-9773-dc72d77667ef"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":16034,"automaticPayment":false,"paymentAuthorizationId":"afac6b66-6fbe-46ff-877e-b0e5d155629b"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":7211,"automaticPayment":false,"paymentAuthorizationId":"2f8f6fdc-b90a-48e7-9e0a-fef87e750e7f"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":13222,"automaticPayment":false,"paymentAuthorizationId":"ada13904-d18a-4a0d-977d-715211072ed2"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":13850,"automaticPayment":false,"paymentAuthorizationId":"5ebb41de-7576-492a-8b67-3df30d9854de"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":9992,"automaticPayment":false,"paymentAuthorizationId":"ab5c44b2-3438-4873-9b84-541d2f0f521b"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":39963,"automaticPayment":false,"paymentAuthorizationId":"d73cd40b-4688-4dff-90c2-a66992365223"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":13800,"automaticPayment":false,"paymentAuthorizationId":"842e8959-cc39-47ec-bb91-392cb052270e"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":21279,"automaticPayment":false,"paymentAuthorizationId":"d6426a02-4a5c-4984-b172-52ecc0ad3759"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":14135,"automaticPayment":false,"paymentAuthorizationId":"f05c342d-58b1-4eb2-8af2-799060f1bfa2"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":12272,"automaticPayment":false,"paymentAuthorizationId":"08e68c05-7b5c-4fe8-b230-da983b1a03ab"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":14943,"automaticPayment":false,"paymentAuthorizationId":"8373a157-88d6-4ff6-ada6-dde883fe4938"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":14271,"automaticPayment":false,"paymentAuthorizationId":"b2cb5f4a-b9d0-472d-ba1b-78b5e7570833"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":4800,"automaticPayment":false,"paymentAuthorizationId":"7426cda5-8d8b-4483-ba38-d4b3355f187a"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":16275,"automaticPayment":false,"paymentAuthorizationId":"f94e7630-7509-4c54-b0d4-94be4f3f2d03"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":9451,"automaticPayment":false,"paymentAuthorizationId":"6d171a0d-1c83-4e70-8994-97f33af82ef0"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":12626,"automaticPayment":false,"paymentAuthorizationId":"a2fa84d5-08db-4c41-8d96-084665c4e3c0"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":13484,"automaticPayment":false,"paymentAuthorizationId":"e5bfae19-4f85-4115-872b-e4ddd03ed4c0"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":15396,"automaticPayment":false,"paymentAuthorizationId":"1ef140f3-24a3-40de-bfd0-0333a42289de"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":15928,"automaticPayment":false,"paymentAuthorizationId":"3848c4ff-a262-4540-a874-50483576399c"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":14053,"automaticPayment":false,"paymentAuthorizationId":"9f0d2ab3-0272-4273-9b1f-1c6fe98df18c"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":15632,"automaticPayment":false,"paymentAuthorizationId":"3b971103-6c3c-4f72-a375-0ec3992ca13b"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":12395,"automaticPayment":false,"paymentAuthorizationId":"a1587b00-c36d-4b91-a541-8d8107e753f8"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":3128,"automaticPayment":false,"paymentAuthorizationId":"2beeff26-f2f5-49f9-946d-63ffc2bcd81a"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":13467,"automaticPayment":false,"paymentAuthorizationId":"b6e3ab67-d5c0-4405-8e86-38439cef2ba0"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":11946,"automaticPayment":false,"paymentAuthorizationId":"49f5efb0-5c66-482e-a960-446269ba3f70"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":6949,"automaticPayment":false,"paymentAuthorizationId":"ef22f13c-7418-4197-ae9e-17c47643ba81"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":11307,"automaticPayment":false,"paymentAuthorizationId":"844148db-ec8d-46fa-b059-6183b5f68cff"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":3875,"automaticPayment":false,"paymentAuthorizationId":"5a06d073-c912-45a1-b478-5d4a60f45f03"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":15521,"automaticPayment":false,"paymentAuthorizationId":"c71a6cda-4dc0-46c2-a80a-cfc0592bbecb"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":3222,"automaticPayment":false,"paymentAuthorizationId":"0f3ca8a9-73ed-4f04-8bc3-21f79710b406"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":12204,"automaticPayment":false,"paymentAuthorizationId":"f45f4958-ab42-4b55-b7c2-c4a12dd21762"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":7450,"automaticPayment":false,"paymentAuthorizationId":"4c6152de-1d28-4570-8a72-274266a50dd5"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":16436,"automaticPayment":false,"paymentAuthorizationId":"cfd1abbb-436a-4a49-9910-2f9097bc9f21"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":10510,"automaticPayment":false,"paymentAuthorizationId":"f255a675-8907-4e1c-900f-32414f58a384"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":24264,"automaticPayment":false,"paymentAuthorizationId":"d6836f21-6490-46c3-abd9-06a3df800fb1"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":13649,"automaticPayment":false,"paymentAuthorizationId":"c4e48ee2-39b9-4ef9-a39f-aca7205e74e8"}}
+ Response: {"code":"001","message":"AUTORIZADO CON VALIDACION","body":{"flyKey":null,"flyKeyType":null,"subAccountId":3400,"automaticPayment":false,"paymentAuthorizationId":"28108fa7-32a9-4121-96e6-69df9fe90168"}}

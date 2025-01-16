@@ -133,7 +133,7 @@ $(document).ready(function() {
         widgets: ['zebra']
     });
 
-    var data = {"OkPercent": 2.5684931506849313, "KoPercent": 97.43150684931507};
+    var data = {"OkPercent": 34.1727876880028, "KoPercent": 65.8272123119972};
     var dataset = [
         {
             "label" : "FAIL",
@@ -173,7 +173,7 @@ $(document).ready(function() {
     });
 
     // Creates APDEX table
-    createTable($("#apdexTable"), {"supportsControllersDiscrimination": true, "overall": {"data": [0.022137964774951075, 400, 900, "Total"], "isController": false}, "titles": ["Apdex", "T (Toleration threshold)", "F (Frustration threshold)", "Label"], "items": [{"data": [0.8375, 400, 900, "autorizacionSalida"], "isController": false}, {"data": [0.0, 400, 900, "preAutorizacionPlacasNoFlypass"], "isController": false}, {"data": [0.5394736842105263, 400, 900, "autorizacion"], "isController": false}, {"data": [0.9358974358974359, 400, 900, "preAutorizacion"], "isController": false}, {"data": [0.0, 400, 900, "loginCognito"], "isController": false}]}, function(index, item){
+    createTable($("#apdexTable"), {"supportsControllersDiscrimination": true, "overall": {"data": [0.23137460650577124, 400, 900, "Total"], "isController": false}, "titles": ["Apdex", "T (Toleration threshold)", "F (Frustration threshold)", "Label"], "items": [{"data": [0.1918918918918919, 400, 900, "autorizacionSalida"], "isController": false}, {"data": [0.9762845849802372, 400, 900, "autorizacionConSubAccountId"], "isController": false}, {"data": [0.0, 400, 900, "preAutorizacionPlacasNoFlypass"], "isController": false}, {"data": [0.3912133891213389, 400, 900, "autorizacion"], "isController": false}, {"data": [0.49372384937238495, 400, 900, "preAutorizacion"], "isController": false}, {"data": [0.5217391304347826, 400, 900, "preAutorizacionConSubAccountId"], "isController": false}, {"data": [0.0, 400, 900, "loginCognito"], "isController": false}]}, function(index, item){
         switch(index){
             case 0:
                 item = item.toFixed(3);
@@ -187,7 +187,7 @@ $(document).ready(function() {
     }, [[0, 0]], 3);
 
     // Create statistics table
-    createTable($("#statisticsTable"), {"supportsControllersDiscrimination": true, "overall": {"data": ["Total", 4088, 3983, 97.43150684931507, 124.44960861056742, 90, 1315, 112.0, 134.0, 172.0, 490.99000000000115, 3.37725360216977, 1.3965570412908082, 5.966221151764921], "isController": false}, "titles": ["Label", "#Samples", "FAIL", "Error %", "Average", "Min", "Max", "Median", "90th pct", "95th pct", "99th pct", "Transactions/s", "Received", "Sent"], "items": [{"data": ["autorizacionSalida", 40, 0, 0.0, 322.34999999999997, 145, 713, 255.5, 596.8, 677.0999999999998, 713.0, 0.039662511688046416, 0.020141119216586068, 0.07725765368727498], "isController": false}, {"data": ["preAutorizacionPlacasNoFlypass", 3970, 3970, 100.0, 118.3916876574306, 90, 787, 112.0, 129.0, 142.44999999999982, 339.4499999999998, 3.3088103534926288, 1.357129246549711, 5.832606818003762], "isController": false}, {"data": ["autorizacion", 38, 13, 34.21052631578947, 357.60526315789474, 156, 891, 346.0, 507.1, 754.1999999999996, 891.0, 0.033262257141756735, 0.01553526576105795, 0.0670365437866979], "isController": false}, {"data": ["preAutorizacion", 39, 0, 0.0, 280.4358974358974, 166, 614, 246.0, 459.0, 533.0, 614.0, 0.03324411408698024, 0.017068242068295342, 0.05859924406933528], "isController": false}, {"data": ["loginCognito", 1, 0, 0.0, 1315.0, 1315, 1315, 1315.0, 1315.0, 1315.0, 1315.0, 0.7604562737642585, 3.0871257129277567, 0.3453243821292776], "isController": false}]}, function(index, item){
+    createTable($("#statisticsTable"), {"supportsControllersDiscrimination": true, "overall": {"data": ["Total", 2859, 1882, 65.8272123119972, 572.5676810073442, 100, 4357, 695.0, 796.0, 829.0, 955.8000000000011, 2.3760608750286725, 1.0741966744081872, 4.409231808621552], "isController": false}, "titles": ["Label", "#Samples", "FAIL", "Error %", "Average", "Min", "Max", "Median", "90th pct", "95th pct", "99th pct", "Transactions/s", "Received", "Sent"], "items": [{"data": ["autorizacionSalida", 370, 227, 61.351351351351354, 485.3162162162162, 398, 1219, 474.0, 541.0, 571.25, 683.0, 0.30805736527693944, 0.14004950643173822, 0.6097052705388922], "isController": false}, {"data": ["autorizacionConSubAccountId", 253, 6, 2.3715415019762847, 127.65612648221347, 100, 392, 124.0, 145.6, 155.29999999999998, 202.76000000000005, 0.211833185971117, 0.11102207105035769, 0.42992965861365645], "isController": false}, {"data": ["preAutorizacionPlacasNoFlypass", 1504, 1504, 100.0, 765.301861702127, 671, 4357, 748.0, 822.0, 863.75, 1059.8500000000001, 1.2530712326005142, 0.5139549977463047, 2.243054590768931], "isController": false}, {"data": ["autorizacion", 239, 145, 60.66945606694561, 144.4142259414226, 101, 662, 131.0, 158.0, 202.0, 619.5999999999998, 0.2004214720999055, 0.09128031243736828, 0.41017873779756087], "isController": false}, {"data": ["preAutorizacion", 239, 0, 0.0, 491.45188284518815, 401, 1044, 481.0, 543.0, 598.0, 936.5999999999998, 0.19981272781995119, 0.10745763515575361, 0.35845310645043976], "isController": false}, {"data": ["preAutorizacionConSubAccountId", 253, 0, 0.0, 476.90513833992065, 385, 4081, 450.0, 516.2, 555.0, 1170.640000000003, 0.21118865825084038, 0.11135760656888548, 0.3748526948674478], "isController": false}, {"data": ["loginCognito", 1, 0, 0.0, 1464.0, 1464, 1464, 1464.0, 1464.0, 1464.0, 1464.0, 0.6830601092896175, 2.772930541325137, 0.3101786629098361], "isController": false}]}, function(index, item){
         switch(index){
             // Errors pct
             case 3:
@@ -217,7 +217,7 @@ $(document).ready(function() {
     }, [[0, 0]], 0, summaryTableHeader);
 
     // Create error table
-    createTable($("#errorsTable"), {"supportsControllersDiscrimination": false, "titles": ["Type of error", "Number of errors", "% in errors", "% in all samples"], "items": [{"data": ["403/Forbidden", 13, 0.3263871453678132, 0.31800391389432486], "isController": false}, {"data": ["404/Not Found", 3970, 99.67361285463218, 97.11350293542074], "isController": false}]}, function(index, item){
+    createTable($("#errorsTable"), {"supportsControllersDiscrimination": false, "titles": ["Type of error", "Number of errors", "% in errors", "% in all samples"], "items": [{"data": ["400/Bad Request", 378, 20.08501594048884, 13.221406086044071], "isController": false}, {"data": ["404/Not Found", 1504, 79.91498405951116, 52.60580622595313], "isController": false}]}, function(index, item){
         switch(index){
             case 2:
             case 3:
@@ -228,7 +228,7 @@ $(document).ready(function() {
     }, [[1, 1]]);
 
         // Create top5 errors by sampler
-    createTable($("#top5ErrorsBySamplerTable"), {"supportsControllersDiscrimination": false, "overall": {"data": ["Total", 4088, 3983, "404/Not Found", 3970, "403/Forbidden", 13, "", "", "", "", "", ""], "isController": false}, "titles": ["Sample", "#Samples", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors"], "items": [{"data": [], "isController": false}, {"data": ["preAutorizacionPlacasNoFlypass", 3970, 3970, "404/Not Found", 3970, "", "", "", "", "", "", "", ""], "isController": false}, {"data": ["autorizacion", 38, 13, "403/Forbidden", 13, "", "", "", "", "", "", "", ""], "isController": false}, {"data": [], "isController": false}, {"data": [], "isController": false}]}, function(index, item){
+    createTable($("#top5ErrorsBySamplerTable"), {"supportsControllersDiscrimination": false, "overall": {"data": ["Total", 2859, 1882, "404/Not Found", 1504, "400/Bad Request", 378, "", "", "", "", "", ""], "isController": false}, "titles": ["Sample", "#Samples", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors"], "items": [{"data": ["autorizacionSalida", 370, 227, "400/Bad Request", 227, "", "", "", "", "", "", "", ""], "isController": false}, {"data": ["autorizacionConSubAccountId", 253, 6, "400/Bad Request", 6, "", "", "", "", "", "", "", ""], "isController": false}, {"data": ["preAutorizacionPlacasNoFlypass", 1504, 1504, "404/Not Found", 1504, "", "", "", "", "", "", "", ""], "isController": false}, {"data": ["autorizacion", 239, 145, "400/Bad Request", 145, "", "", "", "", "", "", "", ""], "isController": false}, {"data": [], "isController": false}, {"data": [], "isController": false}, {"data": [], "isController": false}]}, function(index, item){
         return item;
     }, [[0, 0]], 0);
 

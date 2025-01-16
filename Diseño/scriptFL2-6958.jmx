@@ -1,0 +1,1479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jmeterTestPlan version="1.2" properties="5.0" jmeter="5.6.2">
+  <hashTree>
+    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="Test Plan" enabled="true">
+      <boolProp name="TestPlan.functional_mode">false</boolProp>
+      <boolProp name="TestPlan.tearDown_on_shutdown">false</boolProp>
+      <boolProp name="TestPlan.serialize_threadgroups">false</boolProp>
+      <elementProp name="TestPlan.user_defined_variables" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+        <collectionProp name="Arguments.arguments"/>
+      </elementProp>
+    </TestPlan>
+    <hashTree>
+      <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+        <collectionProp name="Arguments.arguments">
+          <elementProp name="urlCert" elementType="Argument">
+            <stringProp name="Argument.name">urlCert</stringProp>
+            <stringProp name="Argument.value">cert-api.flypass.com.co</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="apiPagos" elementType="Argument">
+            <stringProp name="Argument.name">apiPagos</stringProp>
+            <stringProp name="Argument.value">payment-authorizer/api/v1</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+        </collectionProp>
+      </Arguments>
+      <hashTree/>
+      <SetupThreadGroup guiclass="SetupThreadGroupGui" testclass="SetupThreadGroup" testname="setUp Thread Group" enabled="true">
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
+          <stringProp name="LoopController.loops">1</stringProp>
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+        </elementProp>
+        <stringProp name="ThreadGroup.num_threads">1</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">1</stringProp>
+        <boolProp name="ThreadGroup.scheduler">false</boolProp>
+        <stringProp name="ThreadGroup.duration"></stringProp>
+        <stringProp name="ThreadGroup.delay"></stringProp>
+        <boolProp name="ThreadGroup.same_user_on_next_iteration">false</boolProp>
+      </SetupThreadGroup>
+      <hashTree>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="loginCognito" enabled="true">
+          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.value">{&#xd;
+    &quot;AuthParameters&quot; : {&#xd;
+        &quot;USERNAME&quot; : &quot;abbapay&quot;,&#xd;
+        &quot;PASSWORD&quot; : &quot;LLuRz9y9f4h*do2A&quot;&#xd;
+    },&#xd;
+    &quot;AuthFlow&quot; : &quot;USER_PASSWORD_AUTH&quot;,&#xd;
+    &quot;ClientId&quot; : &quot;64fm7tfh2nfprup6bfftuu2d1r&quot;&#xd;
+}</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+            </collectionProp>
+          </elementProp>
+          <stringProp name="HTTPSampler.domain">cognito-idp.us-east-1.amazonaws.com</stringProp>
+          <stringProp name="HTTPSampler.protocol">https</stringProp>
+          <stringProp name="HTTPSampler.method">POST</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+          <boolProp name="HTTPSampler.BROWSER_COMPATIBLE_MULTIPART">false</boolProp>
+          <boolProp name="HTTPSampler.image_parser">false</boolProp>
+          <boolProp name="HTTPSampler.concurrentDwn">false</boolProp>
+          <stringProp name="HTTPSampler.concurrentPool">6</stringProp>
+          <boolProp name="HTTPSampler.md5">false</boolProp>
+          <intProp name="HTTPSampler.ipSourceType">0</intProp>
+          <stringProp name="TestPlan.comments">Representa la autenticación para consumir los servicios la api</stringProp>
+        </HTTPSamplerProxy>
+        <hashTree>
+          <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+            <collectionProp name="HeaderManager.headers">
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.value">application/x-amz-json-1.1</stringProp>
+                <stringProp name="Header.name">Content-Type</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">X-Amz-Target</stringProp>
+                <stringProp name="Header.value">AWSCognitoIdentityProviderService.InitiateAuth</stringProp>
+              </elementProp>
+            </collectionProp>
+          </HeaderManager>
+          <hashTree/>
+          <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
+            <collectionProp name="Asserion.test_strings">
+              <stringProp name="49586">200</stringProp>
+            </collectionProp>
+            <stringProp name="Assertion.custom_message"></stringProp>
+            <stringProp name="Assertion.test_field">Assertion.response_code</stringProp>
+            <boolProp name="Assertion.assume_success">false</boolProp>
+            <intProp name="Assertion.test_type">16</intProp>
+          </ResponseAssertion>
+          <hashTree/>
+          <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="JSON Extractor" enabled="true">
+            <stringProp name="JSONPostProcessor.referenceNames">varAccessToken</stringProp>
+            <stringProp name="JSONPostProcessor.jsonPathExprs">$.AuthenticationResult.AccessToken</stringProp>
+            <stringProp name="JSONPostProcessor.match_numbers">0</stringProp>
+            <stringProp name="JSONPostProcessor.defaultValues">noHayVarAccessToken</stringProp>
+          </JSONPostProcessor>
+          <hashTree/>
+          <JSR223PostProcessor guiclass="TestBeanGUI" testclass="JSR223PostProcessor" testname="JSR223 PostProcessor" enabled="true">
+            <stringProp name="cacheKey">true</stringProp>
+            <stringProp name="filename"></stringProp>
+            <stringProp name="parameters"></stringProp>
+            <stringProp name="script">props.put(&quot;accessToken&quot;, vars.get(&quot;varAccessToken&quot;))
+</stringProp>
+            <stringProp name="scriptLanguage">groovy</stringProp>
+          </JSR223PostProcessor>
+          <hashTree/>
+        </hashTree>
+      </hashTree>
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="preAutorizacionPlacasNoFlypass" enabled="true">
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
+          <intProp name="LoopController.loops">-1</intProp>
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+        </elementProp>
+        <stringProp name="ThreadGroup.num_threads">1</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">1</stringProp>
+        <boolProp name="ThreadGroup.delayedStart">false</boolProp>
+        <boolProp name="ThreadGroup.scheduler">true</boolProp>
+        <stringProp name="ThreadGroup.duration">700</stringProp>
+        <stringProp name="ThreadGroup.delay"></stringProp>
+        <boolProp name="ThreadGroup.same_user_on_next_iteration">false</boolProp>
+      </ThreadGroup>
+      <hashTree>
+        <ConstantThroughputTimer guiclass="TestBeanGUI" testclass="ConstantThroughputTimer" testname="Constant Throughput Timer" enabled="true">
+          <intProp name="calcMode">2</intProp>
+          <doubleProp>
+            <name>throughput</name>
+            <value>200.0</value>
+            <savedValue>0.0</savedValue>
+          </doubleProp>
+        </ConstantThroughputTimer>
+        <hashTree/>
+        <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config" enabled="true">
+          <stringProp name="delimiter">;</stringProp>
+          <stringProp name="fileEncoding">UTF-8</stringProp>
+          <stringProp name="filename">C:/Users/alejandra.ospina/Documents/GitHub/testing-performance-backend-payment-authorizer/Diseño/Data/preAutorizacionPlacasNoFlypass.csv</stringProp>
+          <boolProp name="ignoreFirstLine">true</boolProp>
+          <boolProp name="quotedData">false</boolProp>
+          <boolProp name="recycle">true</boolProp>
+          <stringProp name="shareMode">shareMode.all</stringProp>
+          <boolProp name="stopThread">false</boolProp>
+          <stringProp name="variableNames">flyKeyNF</stringProp>
+        </CSVDataSet>
+        <hashTree/>
+        <JSR223PreProcessor guiclass="TestBeanGUI" testclass="JSR223PreProcessor" testname="JSR223 PreProcessor" enabled="true">
+          <stringProp name="scriptLanguage">groovy</stringProp>
+          <stringProp name="parameters"></stringProp>
+          <stringProp name="filename"></stringProp>
+          <stringProp name="cacheKey">true</stringProp>
+          <stringProp name="script">import java.security.MessageDigest
+
+// Generar un string aleatorio
+def randomString = UUID.randomUUID().toString().replaceAll(&quot;-&quot;, &quot;&quot;)
+
+// Crear un hash MD5 para ajustarse al formato de 32 caracteres hexadecimales
+MessageDigest md = MessageDigest.getInstance(&quot;MD5&quot;)
+md.update(randomString.getBytes())
+byte[] digest = md.digest()
+
+// Convertir a formato hexadecimal
+String traceId = digest.collect { String.format(&quot;%02x&quot;, it) }.join(&quot;&quot;)
+
+// Almacenar el Trace-ID en una variable para usarlo en el test
+vars.put(&quot;trace_id&quot;, traceId)
+</stringProp>
+        </JSR223PreProcessor>
+        <hashTree/>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="preAutorizacionPlacasNoFlypass" enabled="true">
+          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.value">{&#xd;
+    &quot;serviceProviderId&quot;: 1,&#xd;
+    &quot;attentionPointId&quot;: 1,&#xd;
+    &quot;date&quot;: &quot;2024-08-21T10:00:00-05:00&quot;,&#xd;
+    &quot;timeZone&quot;: &quot;America/Bogota&quot;,&#xd;
+    &quot;flyKey&quot;: &quot;${flyKeyNF}&quot;,&#xd;
+    &quot;flyKeyType&quot;: 1,&#xd;
+    &quot;extendedAttributes&quot;: {&#xd;
+        &quot;serviceType&quot;: 0,&#xd;
+        &quot;readingType&quot;: 0,&#xd;
+        &quot;module&quot;: &quot;E1&quot;,&#xd;
+        &quot;description&quot;: &quot;Ingreso al servicio&quot;,&#xd;
+        &quot;appliedAgreement&quot;: &quot;Descuento del 50% por compras en c.c.&quot;&#xd;
+    }&#xd;
+}</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+            </collectionProp>
+          </elementProp>
+          <stringProp name="HTTPSampler.domain">${urlCert}</stringProp>
+          <stringProp name="HTTPSampler.protocol">https</stringProp>
+          <stringProp name="HTTPSampler.path">${apiPagos}/payment-authorization</stringProp>
+          <stringProp name="HTTPSampler.method">POST</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+          <boolProp name="HTTPSampler.BROWSER_COMPATIBLE_MULTIPART">false</boolProp>
+          <boolProp name="HTTPSampler.image_parser">false</boolProp>
+          <boolProp name="HTTPSampler.concurrentDwn">false</boolProp>
+          <stringProp name="HTTPSampler.concurrentPool">6</stringProp>
+          <boolProp name="HTTPSampler.md5">false</boolProp>
+          <intProp name="HTTPSampler.ipSourceType">0</intProp>
+          <stringProp name="TestPlan.comments">Es lo que se conoce como una entrada</stringProp>
+        </HTTPSamplerProxy>
+        <hashTree>
+          <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+            <collectionProp name="HeaderManager.headers">
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">Content-Type</stringProp>
+                <stringProp name="Header.value">application/json</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">Accept</stringProp>
+                <stringProp name="Header.value">*/*</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">Accept-Encoding</stringProp>
+                <stringProp name="Header.value">gzip, deflate, br</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">trace-id</stringProp>
+                <stringProp name="Header.value">${trace_id}</stringProp>
+              </elementProp>
+              <elementProp name="Authorization" elementType="Header">
+                <stringProp name="Header.name">Authorization</stringProp>
+                <stringProp name="Header.value">Bearer ${__P(accessToken)}</stringProp>
+              </elementProp>
+            </collectionProp>
+          </HeaderManager>
+          <hashTree/>
+          <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
+            <collectionProp name="Asserion.test_strings">
+              <stringProp name="51512">404</stringProp>
+            </collectionProp>
+            <stringProp name="Assertion.custom_message"></stringProp>
+            <stringProp name="Assertion.test_field">Assertion.response_code</stringProp>
+            <boolProp name="Assertion.assume_success">false</boolProp>
+            <intProp name="Assertion.test_type">2</intProp>
+          </ResponseAssertion>
+          <hashTree/>
+          <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
+            <collectionProp name="Asserion.test_strings">
+              <stringProp name="-900080106">No se encontro un vehiculo asociado</stringProp>
+              <stringProp name="47666">002</stringProp>
+            </collectionProp>
+            <stringProp name="Assertion.custom_message"></stringProp>
+            <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
+            <boolProp name="Assertion.assume_success">false</boolProp>
+            <intProp name="Assertion.test_type">2</intProp>
+          </ResponseAssertion>
+          <hashTree/>
+        </hashTree>
+      </hashTree>
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="FlujoCompleto" enabled="true">
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
+          <intProp name="LoopController.loops">-1</intProp>
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+        </elementProp>
+        <stringProp name="ThreadGroup.num_threads">1</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">1</stringProp>
+        <boolProp name="ThreadGroup.delayedStart">false</boolProp>
+        <boolProp name="ThreadGroup.scheduler">true</boolProp>
+        <stringProp name="ThreadGroup.duration">700</stringProp>
+        <stringProp name="ThreadGroup.delay"></stringProp>
+        <boolProp name="ThreadGroup.same_user_on_next_iteration">false</boolProp>
+      </ThreadGroup>
+      <hashTree>
+        <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config" enabled="true">
+          <stringProp name="delimiter">;</stringProp>
+          <stringProp name="fileEncoding">UTF-8</stringProp>
+          <stringProp name="filename">C:/Users/alejandra.ospina/Documents/GitHub/testing-performance-backend-payment-authorizer/Diseño/Data/flujoCompleto.csv</stringProp>
+          <boolProp name="ignoreFirstLine">true</boolProp>
+          <boolProp name="quotedData">false</boolProp>
+          <boolProp name="recycle">true</boolProp>
+          <stringProp name="shareMode">shareMode.all</stringProp>
+          <boolProp name="stopThread">false</boolProp>
+          <stringProp name="variableNames">serviceProviderId,attentionPointId,flyKey,flyKeyType,serviceType,readingType,module,description,appliedAgreement,accountingDate,amount,value</stringProp>
+        </CSVDataSet>
+        <hashTree/>
+        <JSR223PreProcessor guiclass="TestBeanGUI" testclass="JSR223PreProcessor" testname="JSR223 PreProcessor" enabled="true">
+          <stringProp name="cacheKey">true</stringProp>
+          <stringProp name="filename"></stringProp>
+          <stringProp name="parameters"></stringProp>
+          <stringProp name="script">import java.text.SimpleDateFormat
+import java.util.Date
+import java.util.TimeZone
+
+// Formateador de fechas con zona horaria
+SimpleDateFormat sdf = new SimpleDateFormat(&quot;yyyy-MM-dd&apos;T&apos;HH:mm:ssXXX&quot;)
+
+// Establecer la zona horaria deseada (en este caso, -07:00)
+sdf.setTimeZone(TimeZone.getTimeZone(&quot;GMT-07:00&quot;))
+
+// Crear la fecha inicial (hora actual)
+Date fechaPreAutorizacion = new Date()
+
+// Formatear la fecha recarga
+String fechaPreAutorizacionFormatted = sdf.format(fechaPreAutorizacion)
+
+// Guardar la fecha inicial en variables de JMeter
+vars.put(&quot;fechaPreAutorizacion&quot;, fechaPreAutorizacionFormatted)
+</stringProp>
+          <stringProp name="scriptLanguage">groovy</stringProp>
+        </JSR223PreProcessor>
+        <hashTree/>
+        <JSR223PreProcessor guiclass="TestBeanGUI" testclass="JSR223PreProcessor" testname="JSR223 PreProcessor" enabled="true">
+          <stringProp name="cacheKey">true</stringProp>
+          <stringProp name="filename"></stringProp>
+          <stringProp name="parameters"></stringProp>
+          <stringProp name="script">import java.text.SimpleDateFormat
+import java.util.Date
+import java.util.TimeZone
+
+// Formateador de fechas con zona horaria
+SimpleDateFormat sdf = new SimpleDateFormat(&quot;yyyy-MM-dd&apos;T&apos;HH:mm:ssXXX&quot;)
+
+// Establecer la zona horaria deseada (en este caso, -07:00)
+sdf.setTimeZone(TimeZone.getTimeZone(&quot;GMT-07:00&quot;))
+
+// Crear la fecha inicial (hora actual)
+Date fechaAutorizacion = new Date()
+
+// Formatear la fecha recarga
+String fechaAutorizacionFormatted = sdf.format(fechaAutorizacion)
+
+// Guardar la fecha inicial en variables de JMeter
+vars.put(&quot;fechaAutorizacion&quot;, fechaAutorizacionFormatted)
+</stringProp>
+          <stringProp name="scriptLanguage">groovy</stringProp>
+        </JSR223PreProcessor>
+        <hashTree/>
+        <JSR223PreProcessor guiclass="TestBeanGUI" testclass="JSR223PreProcessor" testname="JSR223 PreProcessor" enabled="true">
+          <stringProp name="scriptLanguage">groovy</stringProp>
+          <stringProp name="parameters"></stringProp>
+          <stringProp name="filename"></stringProp>
+          <stringProp name="cacheKey">true</stringProp>
+          <stringProp name="script">import java.security.MessageDigest
+
+// Generar un string aleatorio
+def randomString = UUID.randomUUID().toString().replaceAll(&quot;-&quot;, &quot;&quot;)
+
+// Crear un hash MD5 para ajustarse al formato de 32 caracteres hexadecimales
+MessageDigest md = MessageDigest.getInstance(&quot;MD5&quot;)
+md.update(randomString.getBytes())
+byte[] digest = md.digest()
+
+// Convertir a formato hexadecimal
+String traceId = digest.collect { String.format(&quot;%02x&quot;, it) }.join(&quot;&quot;)
+
+// Almacenar el Trace-ID en una variable para usarlo en el test
+vars.put(&quot;trace_id&quot;, traceId)
+</stringProp>
+        </JSR223PreProcessor>
+        <hashTree/>
+        <BeanShellPreProcessor guiclass="TestBeanGUI" testclass="BeanShellPreProcessor" testname="BeanShell PreProcessor" enabled="true">
+          <stringProp name="filename"></stringProp>
+          <stringProp name="parameters"></stringProp>
+          <boolProp name="resetInterpreter">false</boolProp>
+          <stringProp name="script">// Definir el tiempo objetivo entre muestras en milisegundos (por ejemplo, 300000 ms para 5 minutos)
+long targetInterval =4000;
+long lastSampleTime = vars.getObject(&quot;lastSampleTime&quot;) != null ? (Long) vars.getObject(&quot;lastSampleTime&quot;) : 0;
+long currentTime = System.currentTimeMillis();
+
+// Si el tiempo desde la última muestra es menor que el intervalo objetivo, dormir
+if (currentTime - lastSampleTime &lt; targetInterval) {
+    long sleepTime = targetInterval - (currentTime - lastSampleTime);
+    Thread.sleep(sleepTime);
+}
+
+vars.putObject(&quot;lastSampleTime&quot;, currentTime);
+</stringProp>
+        </BeanShellPreProcessor>
+        <hashTree/>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="preAutorizacion" enabled="true">
+          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.value">{&#xd;
+    &quot;serviceProviderId&quot;: ${serviceProviderId},&#xd;
+    &quot;attentionPointId&quot;: ${attentionPointId},&#xd;
+    &quot;date&quot;: &quot;${fechaPreAutorizacion}&quot;,&#xd;
+    &quot;timeZone&quot;: &quot;America/Bogota&quot;,&#xd;
+    &quot;flyKey&quot;: &quot;${flyKey}&quot;,&#xd;
+    &quot;flyKeyType&quot;: ${flyKeyType},&#xd;
+    &quot;extendedAttributes&quot;: {&#xd;
+        &quot;serviceType&quot;: ${serviceType},&#xd;
+        &quot;readingType&quot;: ${readingType},&#xd;
+        &quot;module&quot;: &quot;${module}&quot;,&#xd;
+        &quot;description&quot;: &quot;${description}&quot;,&#xd;
+        &quot;appliedAgreement&quot;: &quot;${appliedAgreement}&quot;&#xd;
+    }&#xd;
+}</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+            </collectionProp>
+          </elementProp>
+          <stringProp name="HTTPSampler.domain">${urlCert}</stringProp>
+          <stringProp name="HTTPSampler.protocol">https</stringProp>
+          <stringProp name="HTTPSampler.path">${apiPagos}/payment-authorization</stringProp>
+          <stringProp name="HTTPSampler.method">POST</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+          <boolProp name="HTTPSampler.BROWSER_COMPATIBLE_MULTIPART">false</boolProp>
+          <boolProp name="HTTPSampler.image_parser">false</boolProp>
+          <boolProp name="HTTPSampler.concurrentDwn">false</boolProp>
+          <stringProp name="HTTPSampler.concurrentPool">6</stringProp>
+          <boolProp name="HTTPSampler.md5">false</boolProp>
+          <intProp name="HTTPSampler.ipSourceType">0</intProp>
+          <stringProp name="TestPlan.comments">Es lo que se conoce como una entrada</stringProp>
+        </HTTPSamplerProxy>
+        <hashTree>
+          <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+            <collectionProp name="HeaderManager.headers">
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">Content-Type</stringProp>
+                <stringProp name="Header.value">application/json</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">Accept</stringProp>
+                <stringProp name="Header.value">*/*</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">Accept-Encoding</stringProp>
+                <stringProp name="Header.value">gzip, deflate, br</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">trace-id</stringProp>
+                <stringProp name="Header.value">${trace_id}</stringProp>
+              </elementProp>
+              <elementProp name="Authorization" elementType="Header">
+                <stringProp name="Header.name">Authorization</stringProp>
+                <stringProp name="Header.value">Bearer ${__P(accessToken)}</stringProp>
+              </elementProp>
+            </collectionProp>
+          </HeaderManager>
+          <hashTree/>
+          <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="JSON Extractor" enabled="true">
+            <stringProp name="JSONPostProcessor.referenceNames">varPaymentAuthorizationId</stringProp>
+            <stringProp name="JSONPostProcessor.jsonPathExprs">$.body.paymentAuthorizationId</stringProp>
+            <stringProp name="JSONPostProcessor.match_numbers">1</stringProp>
+            <stringProp name="JSONPostProcessor.defaultValues">noHayVarPaymentAuthorizationId</stringProp>
+          </JSONPostProcessor>
+          <hashTree/>
+          <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
+            <collectionProp name="Asserion.test_strings">
+              <stringProp name="49586">200</stringProp>
+            </collectionProp>
+            <stringProp name="Assertion.custom_message"></stringProp>
+            <stringProp name="Assertion.test_field">Assertion.response_code</stringProp>
+            <boolProp name="Assertion.assume_success">false</boolProp>
+            <intProp name="Assertion.test_type">16</intProp>
+          </ResponseAssertion>
+          <hashTree/>
+          <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
+            <collectionProp name="Asserion.test_strings">
+              <stringProp name="979997464">AUTORIZADO</stringProp>
+              <stringProp name="47664">000</stringProp>
+              <stringProp name="47665">001</stringProp>
+              <stringProp name="1886592432">AUTORIZADO CON VALIDACION</stringProp>
+            </collectionProp>
+            <stringProp name="Assertion.custom_message"></stringProp>
+            <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
+            <boolProp name="Assertion.assume_success">false</boolProp>
+            <intProp name="Assertion.test_type">34</intProp>
+          </ResponseAssertion>
+          <hashTree/>
+          <JSR223PostProcessor guiclass="TestBeanGUI" testclass="JSR223PostProcessor" testname="JSR223 PostProcessor" enabled="true">
+            <stringProp name="scriptLanguage">groovy</stringProp>
+            <stringProp name="parameters"></stringProp>
+            <stringProp name="filename"></stringProp>
+            <stringProp name="cacheKey">true</stringProp>
+            <stringProp name="script">// Importar clases necesarias
+import groovy.json.JsonSlurper
+import java.nio.file.Files
+import java.nio.file.Paths
+import java.nio.file.StandardOpenOption
+import java.io.FileWriter
+import java.io.BufferedWriter
+import java.io.PrintWriter
+
+// Obtener el valor de flyKey desde la variable de JMeter
+def flyKey = vars.get(&quot;flyKey&quot;)
+
+// Obtener la respuesta del servidor
+def response = prev.getResponseDataAsString()
+
+// Parsear la respuesta JSON usando JsonSlurper
+def json = new JsonSlurper().parseText(response)
+
+// Definir rutas de los archivos
+def autorizadasPath = &quot;C:/Users/alejandra.ospina/Documents/GitHub/testing-performance-backend-payment-authorizer/Ejecucion/Logs/preAutorizadas.txt&quot;
+def noAutorizadasPath = &quot;C:/Users/alejandra.ospina/Documents/GitHub/testing-performance-backend-payment-authorizer/Ejecucion/Logs/noPreAutorizadas.txt&quot;
+
+// Definir el código de éxito esperado
+boolean isSuccess = &quot;000&quot;.equals(json.code) &amp;&amp; &quot;AUTORIZADO&quot;.equals(json.message)
+
+// Guardar información en el archivo correspondiente según el resultado
+if (isSuccess) {
+    // Si la transacción fue exitosa, guardar la información en el archivo correspondiente
+    FileWriter fileWriter = new FileWriter(autorizadasPath, true)
+    BufferedWriter bufferedWriter = new BufferedWriter(fileWriter)
+    PrintWriter printWriter = new PrintWriter(bufferedWriter)
+
+    printWriter.println(&quot; Response: ${response}&quot;)
+
+    printWriter.close()
+    bufferedWriter.close()
+    fileWriter.close()
+} else {
+    // Si la transacción falló, guardar la información en el archivo correspondiente
+    FileWriter fileWriter = new FileWriter(noAutorizadasPath, true)
+    BufferedWriter bufferedWriter = new BufferedWriter(fileWriter)
+    PrintWriter printWriter = new PrintWriter(bufferedWriter)
+
+    printWriter.println(&quot; Response: ${response}&quot;)
+
+    printWriter.close()
+    bufferedWriter.close()
+    fileWriter.close()
+}
+</stringProp>
+          </JSR223PostProcessor>
+          <hashTree/>
+        </hashTree>
+        <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="Constant Timer" enabled="true">
+          <stringProp name="ConstantTimer.delay">200</stringProp>
+        </ConstantTimer>
+        <hashTree/>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="autorizacion" enabled="true">
+          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.value">{&#xd;
+  &quot;serviceProviderId&quot;: ${serviceProviderId},&#xd;
+  &quot;attentionPointId&quot;: ${attentionPointId},&#xd;
+  &quot;paymentAuthorizationId&quot;: &quot;${varPaymentAuthorizationId}&quot;,&#xd;
+  &quot;date&quot;: &quot;${fechaAutorizacion}&quot;,&#xd;
+  &quot;timeZone&quot;: &quot;America/Bogota&quot;,&#xd;
+  &quot;flyKey&quot;: &quot;${flyKey}&quot;,&#xd;
+  &quot;flyKeyType&quot;: ${flyKeyType},&#xd;
+  &quot;payment&quot;: {&#xd;
+    &quot;accountingDate&quot;: &quot;${accountingDate}&quot;,&#xd;
+    &quot;amount&quot;: ${amount},&#xd;
+    &quot;currency&quot;: &quot;COP&quot;,&#xd;
+    &quot;taxes&quot;: [&#xd;
+      {&#xd;
+        &quot;name&quot;: &quot;Iva 19%&quot;,&#xd;
+        &quot;value&quot;: ${value},&#xd;
+        &quot;percentage&quot;: &quot;19&quot;&#xd;
+      }&#xd;
+    ]&#xd;
+  },&#xd;
+  &quot;extendedAttributes&quot;: {&#xd;
+    &quot;serviceType&quot;: ${serviceType},&#xd;
+    &quot;readingType&quot;: ${readingType},&#xd;
+    &quot;module&quot;: &quot;${module}&quot;,&#xd;
+    &quot;description&quot;: &quot;${description}&quot;,&#xd;
+    &quot;appliedAgreement&quot;: &quot;${appliedAgreement}&quot;&#xd;
+  }&#xd;
+}</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+            </collectionProp>
+          </elementProp>
+          <stringProp name="HTTPSampler.domain">${urlCert}</stringProp>
+          <stringProp name="HTTPSampler.protocol">https</stringProp>
+          <stringProp name="HTTPSampler.path">${apiPagos}/payment-authorization</stringProp>
+          <stringProp name="HTTPSampler.method">PUT</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+          <boolProp name="HTTPSampler.BROWSER_COMPATIBLE_MULTIPART">false</boolProp>
+          <boolProp name="HTTPSampler.image_parser">false</boolProp>
+          <boolProp name="HTTPSampler.concurrentDwn">false</boolProp>
+          <stringProp name="HTTPSampler.concurrentPool">6</stringProp>
+          <boolProp name="HTTPSampler.md5">false</boolProp>
+          <intProp name="HTTPSampler.ipSourceType">0</intProp>
+          <stringProp name="TestPlan.comments">Es lo que se conoce como una salida</stringProp>
+        </HTTPSamplerProxy>
+        <hashTree>
+          <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+            <collectionProp name="HeaderManager.headers">
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">Content-Type</stringProp>
+                <stringProp name="Header.value">application/json</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">Accept</stringProp>
+                <stringProp name="Header.value">*/*</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">Accept-Encoding</stringProp>
+                <stringProp name="Header.value">gzip, deflate, br</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">trace-id</stringProp>
+                <stringProp name="Header.value">${trace_id}</stringProp>
+              </elementProp>
+              <elementProp name="Authorization" elementType="Header">
+                <stringProp name="Header.name">Authorization</stringProp>
+                <stringProp name="Header.value">Bearer ${__P(accessToken)}</stringProp>
+              </elementProp>
+            </collectionProp>
+          </HeaderManager>
+          <hashTree/>
+          <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
+            <collectionProp name="Asserion.test_strings">
+              <stringProp name="49586">200</stringProp>
+            </collectionProp>
+            <stringProp name="Assertion.custom_message"></stringProp>
+            <stringProp name="Assertion.test_field">Assertion.response_code</stringProp>
+            <boolProp name="Assertion.assume_success">false</boolProp>
+            <intProp name="Assertion.test_type">16</intProp>
+          </ResponseAssertion>
+          <hashTree/>
+          <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
+            <collectionProp name="Asserion.test_strings">
+              <stringProp name="979997464">AUTORIZADO</stringProp>
+              <stringProp name="47664">000</stringProp>
+            </collectionProp>
+            <stringProp name="Assertion.custom_message"></stringProp>
+            <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
+            <boolProp name="Assertion.assume_success">false</boolProp>
+            <intProp name="Assertion.test_type">2</intProp>
+          </ResponseAssertion>
+          <hashTree/>
+          <JSR223PostProcessor guiclass="TestBeanGUI" testclass="JSR223PostProcessor" testname="JSR223 PostProcessor" enabled="true">
+            <stringProp name="scriptLanguage">groovy</stringProp>
+            <stringProp name="parameters"></stringProp>
+            <stringProp name="filename"></stringProp>
+            <stringProp name="cacheKey">true</stringProp>
+            <stringProp name="script">// Importar clases necesarias
+import groovy.json.JsonSlurper
+import java.io.FileWriter
+import java.io.BufferedWriter
+import java.io.PrintWriter
+
+// Obtener valores desde las variables de JMeter
+def flyKey = vars.get(&quot;flyKey&quot;)
+def varPaymentAuthorizationId = vars.get(&quot;varPaymentAuthorizationId&quot;)
+
+// Obtener la respuesta del servidor
+def response = prev.getResponseDataAsString()
+
+// Parsear la respuesta JSON usando JsonSlurper
+def json = new JsonSlurper().parseText(response)
+
+// Definir rutas de los archivos
+def autorizadasPath = &quot;C:/Users/alejandra.ospina/Documents/GitHub/testing-performance-backend-payment-authorizer/Ejecucion/Logs/autorizadas.txt&quot;
+def noAutorizadasPath = &quot;C:/Users/alejandra.ospina/Documents/GitHub/testing-performance-backend-payment-authorizer/Ejecucion/Logs/noAutorizadas.txt&quot;
+
+boolean isSuccess = &quot;000&quot;.equals(json.code) &amp;&amp; &quot;AUTORIZADO&quot;.equals(json.message)
+
+// Guardar información en el archivo correspondiente según el resultado
+if (isSuccess) {
+    // Si la transacción fue exitosa, guardar la información en el archivo correspondiente
+    FileWriter fileWriter = new FileWriter(autorizadasPath, true)
+    BufferedWriter bufferedWriter = new BufferedWriter(fileWriter)
+    PrintWriter printWriter = new PrintWriter(bufferedWriter)
+    printWriter.println(&quot; Response: ${response}&quot;)
+
+    printWriter.close()
+    bufferedWriter.close()
+    fileWriter.close()
+} else {
+    // Si la transacción falló, guardar la información en el archivo correspondiente
+    FileWriter fileWriter = new FileWriter(noAutorizadasPath, true)
+    BufferedWriter bufferedWriter = new BufferedWriter(fileWriter)
+    PrintWriter printWriter = new PrintWriter(bufferedWriter)
+    
+    printWriter.println(&quot;Response: ${response}&quot;)
+
+    printWriter.close()
+    bufferedWriter.close()
+    fileWriter.close()
+}
+
+
+
+
+
+
+
+
+    
+
+
+</stringProp>
+          </JSR223PostProcessor>
+          <hashTree/>
+        </hashTree>
+      </hashTree>
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="FlujoCompletoPagoConSubAccountId" enabled="true">
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
+          <intProp name="LoopController.loops">-1</intProp>
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+        </elementProp>
+        <stringProp name="ThreadGroup.num_threads">1</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">1</stringProp>
+        <boolProp name="ThreadGroup.delayedStart">false</boolProp>
+        <boolProp name="ThreadGroup.scheduler">true</boolProp>
+        <stringProp name="ThreadGroup.duration">700</stringProp>
+        <stringProp name="ThreadGroup.delay"></stringProp>
+        <boolProp name="ThreadGroup.same_user_on_next_iteration">false</boolProp>
+        <stringProp name="TestPlan.comments">un nuevo método de pago aceptado por el autorizador el cual permite realizarlo con el subAccountId, el cual hace referencia a el mismo CDUSUARIO/WALLETID de la cuenta</stringProp>
+      </ThreadGroup>
+      <hashTree>
+        <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config" enabled="true">
+          <stringProp name="delimiter">;</stringProp>
+          <stringProp name="fileEncoding">UTF-8</stringProp>
+          <stringProp name="filename">C:/Users/alejandra.ospina/Documents/GitHub/testing-performance-backend-payment-authorizer/Diseño/Data/flujoCompletoPagoConSubAccountId.csv</stringProp>
+          <boolProp name="ignoreFirstLine">true</boolProp>
+          <boolProp name="quotedData">false</boolProp>
+          <boolProp name="recycle">true</boolProp>
+          <stringProp name="shareMode">shareMode.all</stringProp>
+          <boolProp name="stopThread">false</boolProp>
+          <stringProp name="variableNames">serviceProviderId,attentionPointId,subAccountId,serviceType,readingType,module,description,appliedAgreement,accountingDate,amount,value</stringProp>
+        </CSVDataSet>
+        <hashTree/>
+        <JSR223PreProcessor guiclass="TestBeanGUI" testclass="JSR223PreProcessor" testname="JSR223 PreProcessor" enabled="true">
+          <stringProp name="cacheKey">true</stringProp>
+          <stringProp name="filename"></stringProp>
+          <stringProp name="parameters"></stringProp>
+          <stringProp name="script">import java.text.SimpleDateFormat
+import java.util.Date
+import java.util.TimeZone
+
+// Formateador de fechas con zona horaria
+SimpleDateFormat sdf = new SimpleDateFormat(&quot;yyyy-MM-dd&apos;T&apos;HH:mm:ssXXX&quot;)
+
+// Establecer la zona horaria deseada (en este caso, -07:00)
+sdf.setTimeZone(TimeZone.getTimeZone(&quot;GMT-07:00&quot;))
+
+// Crear la fecha inicial (hora actual)
+Date fechaPreAutorizacion = new Date()
+
+// Formatear la fecha recarga
+String fechaPreAutorizacionFormatted = sdf.format(fechaPreAutorizacion)
+
+// Guardar la fecha inicial en variables de JMeter
+vars.put(&quot;fechaPreAutorizacion&quot;, fechaPreAutorizacionFormatted)
+</stringProp>
+          <stringProp name="scriptLanguage">groovy</stringProp>
+        </JSR223PreProcessor>
+        <hashTree/>
+        <JSR223PreProcessor guiclass="TestBeanGUI" testclass="JSR223PreProcessor" testname="JSR223 PreProcessor" enabled="true">
+          <stringProp name="cacheKey">true</stringProp>
+          <stringProp name="filename"></stringProp>
+          <stringProp name="parameters"></stringProp>
+          <stringProp name="script">import java.text.SimpleDateFormat
+import java.util.Date
+import java.util.TimeZone
+
+// Formateador de fechas con zona horaria
+SimpleDateFormat sdf = new SimpleDateFormat(&quot;yyyy-MM-dd&apos;T&apos;HH:mm:ssXXX&quot;)
+
+// Establecer la zona horaria deseada (en este caso, -07:00)
+sdf.setTimeZone(TimeZone.getTimeZone(&quot;GMT-07:00&quot;))
+
+// Crear la fecha inicial (hora actual)
+Date fechaAutorizacion = new Date()
+
+// Formatear la fecha recarga
+String fechaAutorizacionFormatted = sdf.format(fechaAutorizacion)
+
+// Guardar la fecha inicial en variables de JMeter
+vars.put(&quot;fechaAutorizacion&quot;, fechaAutorizacionFormatted)
+</stringProp>
+          <stringProp name="scriptLanguage">groovy</stringProp>
+        </JSR223PreProcessor>
+        <hashTree/>
+        <JSR223PreProcessor guiclass="TestBeanGUI" testclass="JSR223PreProcessor" testname="JSR223 PreProcessor" enabled="true">
+          <stringProp name="scriptLanguage">groovy</stringProp>
+          <stringProp name="parameters"></stringProp>
+          <stringProp name="filename"></stringProp>
+          <stringProp name="cacheKey">true</stringProp>
+          <stringProp name="script">import java.security.MessageDigest
+
+// Generar un string aleatorio
+def randomString = UUID.randomUUID().toString().replaceAll(&quot;-&quot;, &quot;&quot;)
+
+// Crear un hash MD5 para ajustarse al formato de 32 caracteres hexadecimales
+MessageDigest md = MessageDigest.getInstance(&quot;MD5&quot;)
+md.update(randomString.getBytes())
+byte[] digest = md.digest()
+
+// Convertir a formato hexadecimal
+String traceId = digest.collect { String.format(&quot;%02x&quot;, it) }.join(&quot;&quot;)
+
+// Almacenar el Trace-ID en una variable para usarlo en el test
+vars.put(&quot;trace_id&quot;, traceId)
+</stringProp>
+        </JSR223PreProcessor>
+        <hashTree/>
+        <BeanShellPreProcessor guiclass="TestBeanGUI" testclass="BeanShellPreProcessor" testname="BeanShell PreProcessor" enabled="true">
+          <stringProp name="filename"></stringProp>
+          <stringProp name="parameters"></stringProp>
+          <boolProp name="resetInterpreter">false</boolProp>
+          <stringProp name="script">// Definir el tiempo objetivo entre muestras en milisegundos (por ejemplo, 300000 ms para 5 minutos)
+long targetInterval =4000;
+long lastSampleTime = vars.getObject(&quot;lastSampleTime&quot;) != null ? (Long) vars.getObject(&quot;lastSampleTime&quot;) : 0;
+long currentTime = System.currentTimeMillis();
+
+// Si el tiempo desde la última muestra es menor que el intervalo objetivo, dormir
+if (currentTime - lastSampleTime &lt; targetInterval) {
+    long sleepTime = targetInterval - (currentTime - lastSampleTime);
+    Thread.sleep(sleepTime);
+}
+
+vars.putObject(&quot;lastSampleTime&quot;, currentTime);
+</stringProp>
+        </BeanShellPreProcessor>
+        <hashTree/>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="preAutorizacionConSubAccountId" enabled="true">
+          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.value">{&#xd;
+    &quot;serviceProviderId&quot;: ${serviceProviderId},&#xd;
+    &quot;attentionPointId&quot;: ${attentionPointId},&#xd;
+    &quot;date&quot;: &quot;${fechaPreAutorizacion}&quot;,&#xd;
+    &quot;timeZone&quot;: &quot;America/Bogota&quot;,&#xd;
+    &quot;subAccountId&quot;: ${subAccountId},&#xd;
+    &quot;extendedAttributes&quot;: {&#xd;
+        &quot;serviceType&quot;: ${serviceType},&#xd;
+        &quot;readingType&quot;: ${readingType},&#xd;
+        &quot;module&quot;: &quot;${module}&quot;,&#xd;
+        &quot;description&quot;: &quot;${description}&quot;,&#xd;
+        &quot;appliedAgreement&quot;: &quot;${appliedAgreement}&quot;&#xd;
+    }&#xd;
+}</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+            </collectionProp>
+          </elementProp>
+          <stringProp name="HTTPSampler.domain">${urlCert}</stringProp>
+          <stringProp name="HTTPSampler.protocol">https</stringProp>
+          <stringProp name="HTTPSampler.path">${apiPagos}/payment-authorization</stringProp>
+          <stringProp name="HTTPSampler.method">POST</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+          <boolProp name="HTTPSampler.BROWSER_COMPATIBLE_MULTIPART">false</boolProp>
+          <boolProp name="HTTPSampler.image_parser">false</boolProp>
+          <boolProp name="HTTPSampler.concurrentDwn">false</boolProp>
+          <stringProp name="HTTPSampler.concurrentPool">6</stringProp>
+          <boolProp name="HTTPSampler.md5">false</boolProp>
+          <intProp name="HTTPSampler.ipSourceType">0</intProp>
+          <stringProp name="TestPlan.comments">Es lo que se conoce como una entrada</stringProp>
+        </HTTPSamplerProxy>
+        <hashTree>
+          <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+            <collectionProp name="HeaderManager.headers">
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">Content-Type</stringProp>
+                <stringProp name="Header.value">application/json</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">Accept</stringProp>
+                <stringProp name="Header.value">*/*</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">Accept-Encoding</stringProp>
+                <stringProp name="Header.value">gzip, deflate, br</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">trace-id</stringProp>
+                <stringProp name="Header.value">${trace_id}</stringProp>
+              </elementProp>
+              <elementProp name="Authorization" elementType="Header">
+                <stringProp name="Header.name">Authorization</stringProp>
+                <stringProp name="Header.value">Bearer ${__P(accessToken)}</stringProp>
+              </elementProp>
+            </collectionProp>
+          </HeaderManager>
+          <hashTree/>
+          <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="JSON Extractor" enabled="true">
+            <stringProp name="JSONPostProcessor.referenceNames">varPaymentAuthorizationId</stringProp>
+            <stringProp name="JSONPostProcessor.jsonPathExprs">$.body.paymentAuthorizationId</stringProp>
+            <stringProp name="JSONPostProcessor.match_numbers">1</stringProp>
+            <stringProp name="JSONPostProcessor.defaultValues">noHayVarPaymentAuthorizationId</stringProp>
+          </JSONPostProcessor>
+          <hashTree/>
+          <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
+            <collectionProp name="Asserion.test_strings">
+              <stringProp name="49586">200</stringProp>
+            </collectionProp>
+            <stringProp name="Assertion.custom_message"></stringProp>
+            <stringProp name="Assertion.test_field">Assertion.response_code</stringProp>
+            <boolProp name="Assertion.assume_success">false</boolProp>
+            <intProp name="Assertion.test_type">16</intProp>
+          </ResponseAssertion>
+          <hashTree/>
+          <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
+            <collectionProp name="Asserion.test_strings">
+              <stringProp name="979997464">AUTORIZADO</stringProp>
+              <stringProp name="47664">000</stringProp>
+              <stringProp name="47665">001</stringProp>
+              <stringProp name="1886592432">AUTORIZADO CON VALIDACION</stringProp>
+            </collectionProp>
+            <stringProp name="Assertion.custom_message"></stringProp>
+            <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
+            <boolProp name="Assertion.assume_success">false</boolProp>
+            <intProp name="Assertion.test_type">34</intProp>
+          </ResponseAssertion>
+          <hashTree/>
+          <JSR223PostProcessor guiclass="TestBeanGUI" testclass="JSR223PostProcessor" testname="JSR223 PostProcessor" enabled="true">
+            <stringProp name="scriptLanguage">groovy</stringProp>
+            <stringProp name="parameters"></stringProp>
+            <stringProp name="filename"></stringProp>
+            <stringProp name="cacheKey">true</stringProp>
+            <stringProp name="script">// Importar clases necesarias
+import groovy.json.JsonSlurper
+import java.nio.file.Files
+import java.nio.file.Paths
+import java.nio.file.StandardOpenOption
+import java.io.FileWriter
+import java.io.BufferedWriter
+import java.io.PrintWriter
+
+// Obtener el valor de flyKey desde la variable de JMeter
+def flyKey = vars.get(&quot;flyKey&quot;)
+
+// Obtener la respuesta del servidor
+def response = prev.getResponseDataAsString()
+
+// Parsear la respuesta JSON usando JsonSlurper
+def json = new JsonSlurper().parseText(response)
+
+// Definir rutas de los archivos
+def autorizadasPath = &quot;C:/Users/alejandra.ospina/Documents/GitHub/testing-performance-backend-payment-authorizer/Ejecucion/Logs/preAutorizadasPagoConSubAccountId.txt&quot;
+def noAutorizadasPath = &quot;C:/Users/alejandra.ospina/Documents/GitHub/testing-performance-backend-payment-authorizer/Ejecucion/Logs/noPreAutorizadasPagoConSubAccountId.txt&quot;
+
+// Definir el código de éxito esperado
+boolean isSuccess = &quot;000&quot;.equals(json.code) &amp;&amp; &quot;AUTORIZADO&quot;.equals(json.message)
+
+// Guardar información en el archivo correspondiente según el resultado
+if (isSuccess) {
+    // Si la transacción fue exitosa, guardar la información en el archivo correspondiente
+    FileWriter fileWriter = new FileWriter(autorizadasPath, true)
+    BufferedWriter bufferedWriter = new BufferedWriter(fileWriter)
+    PrintWriter printWriter = new PrintWriter(bufferedWriter)
+
+    printWriter.println(&quot; Response: ${response}&quot;)
+
+    printWriter.close()
+    bufferedWriter.close()
+    fileWriter.close()
+} else {
+    // Si la transacción falló, guardar la información en el archivo correspondiente
+    FileWriter fileWriter = new FileWriter(noAutorizadasPath, true)
+    BufferedWriter bufferedWriter = new BufferedWriter(fileWriter)
+    PrintWriter printWriter = new PrintWriter(bufferedWriter)
+
+    printWriter.println(&quot; Response: ${response}&quot;)
+
+    printWriter.close()
+    bufferedWriter.close()
+    fileWriter.close()
+}
+</stringProp>
+          </JSR223PostProcessor>
+          <hashTree/>
+        </hashTree>
+        <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="Constant Timer" enabled="true">
+          <stringProp name="ConstantTimer.delay">200</stringProp>
+        </ConstantTimer>
+        <hashTree/>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="autorizacionConSubAccountId" enabled="true">
+          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.value">{&#xd;
+  &quot;serviceProviderId&quot;: ${serviceProviderId},&#xd;
+  &quot;attentionPointId&quot;: ${attentionPointId},&#xd;
+  &quot;paymentAuthorizationId&quot;: &quot;${varPaymentAuthorizationId}&quot;,&#xd;
+  &quot;date&quot;: &quot;${fechaAutorizacion}&quot;,&#xd;
+  &quot;timeZone&quot;: &quot;America/Bogota&quot;,&#xd;
+  &quot;subAccountId&quot;: ${subAccountId},&#xd;
+  &quot;payment&quot;: {&#xd;
+    &quot;accountingDate&quot;: &quot;${accountingDate}&quot;,&#xd;
+    &quot;amount&quot;: ${amount},&#xd;
+    &quot;currency&quot;: &quot;COP&quot;,&#xd;
+    &quot;taxes&quot;: [&#xd;
+      {&#xd;
+        &quot;name&quot;: &quot;Iva 19%&quot;,&#xd;
+        &quot;value&quot;: ${value},&#xd;
+        &quot;percentage&quot;: &quot;19&quot;&#xd;
+      }&#xd;
+    ]&#xd;
+  },&#xd;
+  &quot;extendedAttributes&quot;: {&#xd;
+    &quot;serviceType&quot;: ${serviceType},&#xd;
+    &quot;readingType&quot;: ${readingType},&#xd;
+    &quot;module&quot;: &quot;${module}&quot;,&#xd;
+    &quot;description&quot;: &quot;${description}&quot;,&#xd;
+    &quot;appliedAgreement&quot;: &quot;${appliedAgreement}&quot;&#xd;
+  }&#xd;
+}</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+            </collectionProp>
+          </elementProp>
+          <stringProp name="HTTPSampler.domain">${urlCert}</stringProp>
+          <stringProp name="HTTPSampler.protocol">https</stringProp>
+          <stringProp name="HTTPSampler.path">${apiPagos}/payment-authorization</stringProp>
+          <stringProp name="HTTPSampler.method">PUT</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+          <boolProp name="HTTPSampler.BROWSER_COMPATIBLE_MULTIPART">false</boolProp>
+          <boolProp name="HTTPSampler.image_parser">false</boolProp>
+          <boolProp name="HTTPSampler.concurrentDwn">false</boolProp>
+          <stringProp name="HTTPSampler.concurrentPool">6</stringProp>
+          <boolProp name="HTTPSampler.md5">false</boolProp>
+          <intProp name="HTTPSampler.ipSourceType">0</intProp>
+          <stringProp name="TestPlan.comments">Es lo que se conoce como una salida</stringProp>
+        </HTTPSamplerProxy>
+        <hashTree>
+          <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+            <collectionProp name="HeaderManager.headers">
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">Content-Type</stringProp>
+                <stringProp name="Header.value">application/json</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">Accept</stringProp>
+                <stringProp name="Header.value">*/*</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">Accept-Encoding</stringProp>
+                <stringProp name="Header.value">gzip, deflate, br</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">trace-id</stringProp>
+                <stringProp name="Header.value">${trace_id}</stringProp>
+              </elementProp>
+              <elementProp name="Authorization" elementType="Header">
+                <stringProp name="Header.name">Authorization</stringProp>
+                <stringProp name="Header.value">Bearer ${__P(accessToken)}</stringProp>
+              </elementProp>
+            </collectionProp>
+          </HeaderManager>
+          <hashTree/>
+          <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
+            <collectionProp name="Asserion.test_strings">
+              <stringProp name="49586">200</stringProp>
+            </collectionProp>
+            <stringProp name="Assertion.custom_message"></stringProp>
+            <stringProp name="Assertion.test_field">Assertion.response_code</stringProp>
+            <boolProp name="Assertion.assume_success">false</boolProp>
+            <intProp name="Assertion.test_type">16</intProp>
+          </ResponseAssertion>
+          <hashTree/>
+          <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
+            <collectionProp name="Asserion.test_strings">
+              <stringProp name="979997464">AUTORIZADO</stringProp>
+              <stringProp name="47664">000</stringProp>
+            </collectionProp>
+            <stringProp name="Assertion.custom_message"></stringProp>
+            <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
+            <boolProp name="Assertion.assume_success">false</boolProp>
+            <intProp name="Assertion.test_type">2</intProp>
+          </ResponseAssertion>
+          <hashTree/>
+          <JSR223PostProcessor guiclass="TestBeanGUI" testclass="JSR223PostProcessor" testname="JSR223 PostProcessor" enabled="true">
+            <stringProp name="scriptLanguage">groovy</stringProp>
+            <stringProp name="parameters"></stringProp>
+            <stringProp name="filename"></stringProp>
+            <stringProp name="cacheKey">true</stringProp>
+            <stringProp name="script">// Importar clases necesarias
+import groovy.json.JsonSlurper
+import java.io.FileWriter
+import java.io.BufferedWriter
+import java.io.PrintWriter
+
+// Obtener valores desde las variables de JMeter
+def flyKey = vars.get(&quot;flyKey&quot;)
+def varPaymentAuthorizationId = vars.get(&quot;varPaymentAuthorizationId&quot;)
+
+// Obtener la respuesta del servidor
+def response = prev.getResponseDataAsString()
+
+// Parsear la respuesta JSON usando JsonSlurper
+def json = new JsonSlurper().parseText(response)
+
+// Definir rutas de los archivos
+def autorizadasPath = &quot;C:/Users/alejandra.ospina/Documents/GitHub/testing-performance-backend-payment-authorizer/Ejecucion/Logs/autorizadasPagoConSubAccountId.txt&quot;
+def noAutorizadasPath = &quot;C:/Users/alejandra.ospina/Documents/GitHub/testing-performance-backend-payment-authorizer/Ejecucion/Logs/noAutorizadasPagoConSubAccountId.txt&quot;
+
+boolean isSuccess = &quot;000&quot;.equals(json.code) &amp;&amp; &quot;AUTORIZADO&quot;.equals(json.message)
+
+// Guardar información en el archivo correspondiente según el resultado
+if (isSuccess) {
+    // Si la transacción fue exitosa, guardar la información en el archivo correspondiente
+    FileWriter fileWriter = new FileWriter(autorizadasPath, true)
+    BufferedWriter bufferedWriter = new BufferedWriter(fileWriter)
+    PrintWriter printWriter = new PrintWriter(bufferedWriter)
+    printWriter.println(&quot; Response: ${response}&quot;)
+
+    printWriter.close()
+    bufferedWriter.close()
+    fileWriter.close()
+} else {
+    // Si la transacción falló, guardar la información en el archivo correspondiente
+    FileWriter fileWriter = new FileWriter(noAutorizadasPath, true)
+    BufferedWriter bufferedWriter = new BufferedWriter(fileWriter)
+    PrintWriter printWriter = new PrintWriter(bufferedWriter)
+    
+    printWriter.println(&quot;Response: ${response}&quot;)
+
+    printWriter.close()
+    bufferedWriter.close()
+    fileWriter.close()
+}
+
+
+
+
+
+
+
+
+    
+
+
+</stringProp>
+          </JSR223PostProcessor>
+          <hashTree/>
+        </hashTree>
+      </hashTree>
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="SoloPago" enabled="true">
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
+          <intProp name="LoopController.loops">-1</intProp>
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+        </elementProp>
+        <stringProp name="ThreadGroup.num_threads">1</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">1</stringProp>
+        <boolProp name="ThreadGroup.delayedStart">false</boolProp>
+        <boolProp name="ThreadGroup.scheduler">true</boolProp>
+        <stringProp name="ThreadGroup.duration">700</stringProp>
+        <stringProp name="ThreadGroup.delay"></stringProp>
+        <boolProp name="ThreadGroup.same_user_on_next_iteration">false</boolProp>
+      </ThreadGroup>
+      <hashTree>
+        <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config" enabled="true">
+          <stringProp name="delimiter">;</stringProp>
+          <stringProp name="fileEncoding">UTF-8</stringProp>
+          <stringProp name="filename">C:/Users/alejandra.ospina/Documents/GitHub/testing-performance-backend-payment-authorizer/Diseño/Data/soloSalida.csv</stringProp>
+          <boolProp name="ignoreFirstLine">true</boolProp>
+          <boolProp name="quotedData">false</boolProp>
+          <boolProp name="recycle">true</boolProp>
+          <stringProp name="shareMode">shareMode.all</stringProp>
+          <boolProp name="stopThread">false</boolProp>
+          <stringProp name="variableNames">serviceProviderIdAS,attentionPointIdAS,flyKeyAS,flyKeyTypeAS,serviceTypeAS,readingTypeAS,moduleAS,descriptionAS,appliedAgreementAS,accountingDateAS,amountAS,valueAS</stringProp>
+        </CSVDataSet>
+        <hashTree/>
+        <JSR223PreProcessor guiclass="TestBeanGUI" testclass="JSR223PreProcessor" testname="JSR223 PreProcessor" enabled="true">
+          <stringProp name="cacheKey">true</stringProp>
+          <stringProp name="filename"></stringProp>
+          <stringProp name="parameters"></stringProp>
+          <stringProp name="script">import java.text.SimpleDateFormat
+import java.util.Date
+import java.util.TimeZone
+
+// Formateador de fechas con zona horaria
+SimpleDateFormat sdf = new SimpleDateFormat(&quot;yyyy-MM-dd&apos;T&apos;HH:mm:ssXXX&quot;)
+
+// Establecer la zona horaria deseada (en este caso, -07:00)
+sdf.setTimeZone(TimeZone.getTimeZone(&quot;GMT-07:00&quot;))
+
+// Crear la fecha inicial (hora actual)
+Date fechaAutorizacion = new Date()
+
+// Formatear la fecha recarga
+String fechaAutorizacionFormatted = sdf.format(fechaAutorizacion)
+
+// Guardar la fecha inicial en variables de JMeter
+vars.put(&quot;fechaAutorizacion&quot;, fechaAutorizacionFormatted)
+</stringProp>
+          <stringProp name="scriptLanguage">groovy</stringProp>
+        </JSR223PreProcessor>
+        <hashTree/>
+        <JSR223PreProcessor guiclass="TestBeanGUI" testclass="JSR223PreProcessor" testname="JSR223 PreProcessor" enabled="true">
+          <stringProp name="scriptLanguage">groovy</stringProp>
+          <stringProp name="parameters"></stringProp>
+          <stringProp name="filename"></stringProp>
+          <stringProp name="cacheKey">true</stringProp>
+          <stringProp name="script">import java.security.MessageDigest
+
+// Generar un string aleatorio
+def randomString = UUID.randomUUID().toString().replaceAll(&quot;-&quot;, &quot;&quot;)
+
+// Crear un hash MD5 para ajustarse al formato de 32 caracteres hexadecimales
+MessageDigest md = MessageDigest.getInstance(&quot;MD5&quot;)
+md.update(randomString.getBytes())
+byte[] digest = md.digest()
+
+// Convertir a formato hexadecimal
+String traceId = digest.collect { String.format(&quot;%02x&quot;, it) }.join(&quot;&quot;)
+
+// Almacenar el Trace-ID en una variable para usarlo en el test
+vars.put(&quot;trace_id&quot;, traceId)
+</stringProp>
+        </JSR223PreProcessor>
+        <hashTree/>
+        <BeanShellPreProcessor guiclass="TestBeanGUI" testclass="BeanShellPreProcessor" testname="BeanShell PreProcessor" enabled="true">
+          <stringProp name="filename"></stringProp>
+          <stringProp name="parameters"></stringProp>
+          <boolProp name="resetInterpreter">false</boolProp>
+          <stringProp name="script">// Definir el tiempo objetivo entre muestras en milisegundos (por ejemplo, 300000 ms para 5 minutos)
+long targetInterval =6000;
+long lastSampleTime = vars.getObject(&quot;lastSampleTime&quot;) != null ? (Long) vars.getObject(&quot;lastSampleTime&quot;) : 0;
+long currentTime = System.currentTimeMillis();
+
+// Si el tiempo desde la última muestra es menor que el intervalo objetivo, dormir
+if (currentTime - lastSampleTime &lt; targetInterval) {
+    long sleepTime = targetInterval - (currentTime - lastSampleTime);
+    Thread.sleep(sleepTime);
+}
+
+vars.putObject(&quot;lastSampleTime&quot;, currentTime);
+</stringProp>
+        </BeanShellPreProcessor>
+        <hashTree/>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="autorizacionSalida" enabled="true">
+          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.value">{&#xd;
+  &quot;serviceProviderId&quot;: ${serviceProviderIdAS},&#xd;
+  &quot;attentionPointId&quot;: ${attentionPointIdAS},&#xd;
+  &quot;date&quot;: &quot;${fechaAutorizacion}&quot;,&#xd;
+  &quot;timeZone&quot;: &quot;America/Bogota&quot;,&#xd;
+  &quot;flyKey&quot;: &quot;${flyKeyAS}&quot;,&#xd;
+  &quot;flyKeyType&quot;: ${flyKeyTypeAS},&#xd;
+  &quot;payment&quot;: {&#xd;
+    &quot;accountingDate&quot;: &quot;${accountingDateAS}&quot;,&#xd;
+    &quot;amount&quot;: ${amountAS},&#xd;
+    &quot;currency&quot;: &quot;COP&quot;,&#xd;
+    &quot;taxes&quot;: [&#xd;
+      {&#xd;
+        &quot;name&quot;: &quot;Iva 19%&quot;,&#xd;
+        &quot;value&quot;: ${valueAS},&#xd;
+        &quot;percentage&quot;: &quot;19&quot;&#xd;
+      }&#xd;
+    ]&#xd;
+  },&#xd;
+  &quot;extendedAttributes&quot;: {&#xd;
+    &quot;serviceType&quot;: ${serviceTypeAS},&#xd;
+    &quot;readingType&quot;: ${readingTypeAS},&#xd;
+    &quot;module&quot;: &quot;${moduleAS}&quot;,&#xd;
+    &quot;description&quot;: &quot;${descriptionAS}&quot;,&#xd;
+    &quot;appliedAgreement&quot;: &quot;${appliedAgreementAS}&quot;&#xd;
+  }&#xd;
+}</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+            </collectionProp>
+          </elementProp>
+          <stringProp name="HTTPSampler.domain">${urlCert}</stringProp>
+          <stringProp name="HTTPSampler.protocol">https</stringProp>
+          <stringProp name="HTTPSampler.path">${apiPagos}/payment-authorization</stringProp>
+          <stringProp name="HTTPSampler.method">PUT</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+          <boolProp name="HTTPSampler.BROWSER_COMPATIBLE_MULTIPART">false</boolProp>
+          <boolProp name="HTTPSampler.image_parser">false</boolProp>
+          <boolProp name="HTTPSampler.concurrentDwn">false</boolProp>
+          <stringProp name="HTTPSampler.concurrentPool">6</stringProp>
+          <boolProp name="HTTPSampler.md5">false</boolProp>
+          <intProp name="HTTPSampler.ipSourceType">0</intProp>
+          <stringProp name="TestPlan.comments">Es lo que se conoce como una salida sin entrada</stringProp>
+        </HTTPSamplerProxy>
+        <hashTree>
+          <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+            <collectionProp name="HeaderManager.headers">
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">Content-Type</stringProp>
+                <stringProp name="Header.value">application/json</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">Accept</stringProp>
+                <stringProp name="Header.value">*/*</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">Accept-Encoding</stringProp>
+                <stringProp name="Header.value">gzip, deflate, br</stringProp>
+              </elementProp>
+              <elementProp name="" elementType="Header">
+                <stringProp name="Header.name">trace-id</stringProp>
+                <stringProp name="Header.value">${trace_id}</stringProp>
+              </elementProp>
+              <elementProp name="Authorization" elementType="Header">
+                <stringProp name="Header.name">Authorization</stringProp>
+                <stringProp name="Header.value">Bearer ${__P(accessToken)}</stringProp>
+              </elementProp>
+            </collectionProp>
+          </HeaderManager>
+          <hashTree/>
+          <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
+            <collectionProp name="Asserion.test_strings">
+              <stringProp name="979997464">AUTORIZADO</stringProp>
+              <stringProp name="47664">000</stringProp>
+            </collectionProp>
+            <stringProp name="Assertion.custom_message"></stringProp>
+            <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
+            <boolProp name="Assertion.assume_success">false</boolProp>
+            <intProp name="Assertion.test_type">2</intProp>
+          </ResponseAssertion>
+          <hashTree/>
+          <JSR223PostProcessor guiclass="TestBeanGUI" testclass="JSR223PostProcessor" testname="JSR223 PostProcessor" enabled="true">
+            <stringProp name="scriptLanguage">groovy</stringProp>
+            <stringProp name="parameters"></stringProp>
+            <stringProp name="filename"></stringProp>
+            <stringProp name="cacheKey">true</stringProp>
+            <stringProp name="script">// Importar clases necesarias
+import groovy.json.JsonSlurper
+import java.io.FileWriter
+import java.io.BufferedWriter
+import java.io.PrintWriter
+import java.nio.file.Files
+import java.nio.file.Paths
+import java.nio.file.StandardOpenOption
+
+// Obtener el valor de flyKey desde la variable de JMeter
+def flyKey = vars.get(&quot;flyKeyAS&quot;)
+
+// Obtener la respuesta del servidor
+def response = prev.getResponseDataAsString()
+
+// Parsear la respuesta JSON usando JsonSlurper
+def json = new JsonSlurper().parseText(response)
+
+// Definir rutas de los archivos
+def autorizadasPath = &quot;C:/Users/alejandra.ospina/Documents/GitHub/testing-performance-backend-payment-authorizer/Ejecucion/Logs/autorizadasSoloPago.txt&quot;
+def noAutorizadasPath = &quot;C:/Users/alejandra.ospina/Documents/GitHub/testing-performance-backend-payment-authorizer/Ejecucion/Logs/noAutorizadasSoloPago.txt&quot;
+
+boolean isSuccess = &quot;000&quot;.equals(json.code) &amp;&amp; &quot;AUTORIZADO&quot;.equals(json.message)
+
+// Guardar información en el archivo correspondiente según el resultado
+if (isSuccess) {
+    // Si la transacción fue exitosa, guardar la información en el archivo correspondiente
+    FileWriter fileWriter = new FileWriter(autorizadasPath, true)
+    BufferedWriter bufferedWriter = new BufferedWriter(fileWriter)
+    PrintWriter printWriter = new PrintWriter(bufferedWriter)
+    printWriter.println(&quot; Response: ${response}&quot;)
+
+    printWriter.close()
+    bufferedWriter.close()
+    fileWriter.close()
+} else {
+    // Si la transacción falló, guardar la información en el archivo correspondiente
+    FileWriter fileWriter = new FileWriter(noAutorizadasPath, true)
+    BufferedWriter bufferedWriter = new BufferedWriter(fileWriter)
+    PrintWriter printWriter = new PrintWriter(bufferedWriter)
+    printWriter.println(&quot; Response: ${response}&quot;)
+
+    printWriter.close()
+    bufferedWriter.close()
+    fileWriter.close()
+}
+
+
+
+</stringProp>
+          </JSR223PostProcessor>
+          <hashTree/>
+        </hashTree>
+      </hashTree>
+      <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
+        <boolProp name="ResultCollector.error_logging">false</boolProp>
+        <objProp>
+          <name>saveConfig</name>
+          <value class="SampleSaveConfiguration">
+            <time>true</time>
+            <latency>true</latency>
+            <timestamp>true</timestamp>
+            <success>true</success>
+            <label>true</label>
+            <code>true</code>
+            <message>true</message>
+            <threadName>true</threadName>
+            <dataType>true</dataType>
+            <encoding>false</encoding>
+            <assertions>true</assertions>
+            <subresults>true</subresults>
+            <responseData>false</responseData>
+            <samplerData>false</samplerData>
+            <xml>false</xml>
+            <fieldNames>true</fieldNames>
+            <responseHeaders>false</responseHeaders>
+            <requestHeaders>false</requestHeaders>
+            <responseDataOnError>false</responseDataOnError>
+            <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+            <assertionsResultsToSave>0</assertionsResultsToSave>
+            <bytes>true</bytes>
+            <sentBytes>true</sentBytes>
+            <url>true</url>
+            <threadCounts>true</threadCounts>
+            <idleTime>true</idleTime>
+            <connectTime>true</connectTime>
+          </value>
+        </objProp>
+        <stringProp name="filename"></stringProp>
+      </ResultCollector>
+      <hashTree/>
+      <ResultCollector guiclass="StatVisualizer" testclass="ResultCollector" testname="Aggregate Report" enabled="true">
+        <boolProp name="ResultCollector.error_logging">false</boolProp>
+        <objProp>
+          <name>saveConfig</name>
+          <value class="SampleSaveConfiguration">
+            <time>true</time>
+            <latency>true</latency>
+            <timestamp>true</timestamp>
+            <success>true</success>
+            <label>true</label>
+            <code>true</code>
+            <message>true</message>
+            <threadName>true</threadName>
+            <dataType>true</dataType>
+            <encoding>false</encoding>
+            <assertions>true</assertions>
+            <subresults>true</subresults>
+            <responseData>false</responseData>
+            <samplerData>false</samplerData>
+            <xml>false</xml>
+            <fieldNames>true</fieldNames>
+            <responseHeaders>false</responseHeaders>
+            <requestHeaders>false</requestHeaders>
+            <responseDataOnError>false</responseDataOnError>
+            <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+            <assertionsResultsToSave>0</assertionsResultsToSave>
+            <bytes>true</bytes>
+            <sentBytes>true</sentBytes>
+            <url>true</url>
+            <threadCounts>true</threadCounts>
+            <idleTime>true</idleTime>
+            <connectTime>true</connectTime>
+          </value>
+        </objProp>
+        <stringProp name="filename"></stringProp>
+      </ResultCollector>
+      <hashTree/>
+    </hashTree>
+  </hashTree>
+</jmeterTestPlan>
